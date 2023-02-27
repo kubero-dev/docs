@@ -43,7 +43,7 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/kubero-dev/docs/tree/main',
         },
         blog: {
           showReadingTime: true,
@@ -63,6 +63,7 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       // Replace with your project's social card
+      metadata: [{name: 'keywords', content: 'paas, kubernetes, IDP, self-hosted, kubero'}],
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
         title: 'Documentation',
@@ -139,12 +140,10 @@ const config = {
         darkTheme: darkCodeTheme,
       },
     }),
-
-
-  markdown: {
-    mermaid: true,
-  },
-  themes: ['@docusaurus/theme-mermaid'],
+    markdown: {
+      mermaid: true,
+    },
+    themes: ['@docusaurus/theme-mermaid'],
 };
 
 module.exports = config;
