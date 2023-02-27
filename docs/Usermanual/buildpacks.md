@@ -4,8 +4,11 @@ Kubero buildpack-images rely on public available images.
 
 Examples of Kubero Buildpacks can be found here: https://github.com/kubero-dev/buildpacks/tree/main/packs
 
-> ℹ️  **Information** </ br>
-> Buildpacks have nothing in common with buildpacks.io. Your Code will not be built into the running image but mounted read-only into the running image.
+:::info
+
+Buildpacks have nothing in common with buildpacks.io. Your Code will not be built into the running image but mounted read-only into the running image.
+
+:::
 
 
 Buildpacks are defined as a set of three containers:
