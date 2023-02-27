@@ -1,5 +1,5 @@
 ---
-id: 1quickstart
+id: quickstart
 slug: /
 ---
 

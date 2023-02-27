@@ -38,7 +38,7 @@ const config = {
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
-          routeBasePath: '/',
+          routeBasePath: '/', //https://ricard.dev/how-to-set-docs-as-homepage-for-docusaurus/
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
@@ -65,7 +65,7 @@ const config = {
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: 'Kubero',
+        title: 'Documentation',
         logo: {
           alt: 'Kubero Logo',
           src: 'img/logo.svg',

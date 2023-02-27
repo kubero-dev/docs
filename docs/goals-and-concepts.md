@@ -1,4 +1,9 @@
-## Goals and Concept
+---
+id: goals-and-concepts
+---
+
+
+# Goals and Concept
 Kubero brings the convenience of Heroku/platform.sh/Vercel.dev to your Kubernetes cluster. Your developers should not need to worry about the underlying infrastructure and deployment. Kubero is a tool that helps you to deploy your application in a Kubernetes cluster.
 
 Kubero is basically a Kubernetes Operator with a UI, API, and CLI.
