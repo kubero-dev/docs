@@ -96,7 +96,7 @@ const config = {
             items: [
               {
                 label: 'Tutorial',
-                to: '/docs/intro',
+                to: '/goals-and-concepts',
               },
             ],
           },
