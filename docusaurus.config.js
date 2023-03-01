@@ -86,17 +86,22 @@ const config = {
             label: 'GitHub',
             position: 'right',
           },
+          {
+            href: 'https://www.kubero.dev/',
+            label: 'Kubero',
+            position: 'right',
+          },
         ],
       },
       footer: {
         style: 'light',
         links: [
           {
-            title: 'Docs',
+            title: 'Links',
             items: [
               {
-                label: 'Tutorial',
-                to: '/goals-and-concepts',
+                label: 'Website',
+                href: 'https://www.kubero.dev',
               },
             ],
           },
