@@ -43,8 +43,8 @@ const sidebars = {
   tutorialSidebar: [
     'goals-and-concepts',
     'quickstart',
-    //'screenshots',
     'comparison',
+    'screenshots',
     {
       type: 'category',
       label: 'Installation',
