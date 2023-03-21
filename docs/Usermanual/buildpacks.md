@@ -42,3 +42,9 @@ In the run stage, there are two options: worker and web. Only the web pod is att
       tag: 3.10-buster
       command: "python3 -m venv .venv && . .venv/bin/activate && python3 main.py"
 ```
+
+This config is stored in your Kubernetes cluster and can be changed by kubectl.
+
+```bash
+kubectl edit configmaps -n kubero kubero-config
+```
