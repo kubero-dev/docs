@@ -12,12 +12,16 @@ slug: /
 kubero install
 ```
 
-It is possible to install every component separately. with the "-c" flag. For example:
+<img src="assets/img/quickstart_console.png" />
+
+## Install/upgrade a single component
+
+It is possible to install every component separately. with the "-c" flag. This is useful if you want to upgrade a single component.
 ```bash
 kubero install -c kubero-operator
 ```
 
-List of all components:
+List of all available components:
 
 - kubernetes
 - olm
