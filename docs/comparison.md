@@ -13,24 +13,26 @@
 - Devtron [https://devtron.ai](https://devtron.ai)
 
 
-|                 | Heroku Private Space | kubero | coolify | dokku | Caprover | piku       | Cuber | Acorn | Qovery | Tsuru | Dyrector | Devtron
-|-------------------|:-------------------:|:------:|:-------:|:-----:|:--------:|:----------:|:-----:|:-----:|:------:|:-----:|:--------:|:------:|
-| User Interface    | ✅                 | ✅      | ✅      | ❌ PRO| ✅       | ❌         | ❌    | ❌   | ✅     | ❌    | ✅       | ✅     |
-| Multi User        | ✅                 | ✅      | ✅      | ✅    | ❌       | N/A         | N/A  | N/A  | ✅     | N/A   | ✅       | ✅     |
-| Kubernetes        | N/A                | ✅      | ❌      | plugin| ❌       | ❌         | ✅    | ✅   | ✅     | ✅    | ✅       | ✅     |
-| Multi Kubernetes  | N/A                | ✅      | ❌      | ❌    | ❌       | ❌         | ❌    | ❌   |
-| Scaling           | ✅                 | ✅      | ❌      | ❌    | ✅       | vertically | ❌    | ❌   |
-| Autoscaling       | ✅                 | ✅      | ❌      | ❌    | ❌       | ❌         | ❌    | ❌   |
-| Cronjobs          | ✅                 | ✅      | ❌      | ✅    | ❌       | ✅         | ✅    | ✅   | ✅     | ❌    |
-| CLI               | ✅                 | ✅      | ❌      | ✅    | ✅       | ✅         | ✅    | ✅   | ✅     | ✅    |
-| API               | ✅                 | ✅      | ❌      | ❌ PRO| ✅       | ❌         | ❌    | ✅   | ✅     | ✅    |
-| Autodeployment    | ✅                 | ✅      | ✅      | ❌    | ✅       | ❌         | ❌    | ❌   |
-| Pull-Request-Apps | ✅                 | ✅      | ✅      | ❌    | ❌       | ❌         | ❌    | ❌   |
-| Dataclips         | ✅                 | ❌      | ❌      | ❌    | ❌       | ❌         | ❌    | ❌   |
-| CI/CD             | ✅                 | ✅      | ✅      | ✅    | ❌       | ✅         | ❌    | ❌   |
-| Builtin Addons    | ✅                 | ✅      | ✅      | plugin| ✅       | ❌         | ❌    | ❌   |
-| Builtin Services  | ✅                 | ❌      | ✅      | ❌    | ✅       | ❌         | ❌    | ❌   |
-| Any language      | ✅                 | ✅      | ✅      | ✅    | ✅       | ✅         | ✅    | ✅   |
+|                     | Heroku Private Space | Kubero | Coolify | Dokku | Caprover | Piku       | Cuber | Acorn | Qovery | Tsuru | Dyrector | Devtron
+|---------------------|:-------------------:|:------:|:-------:|:-----:|:--------:|:----------:|:-----:|:-----:|:------:|:-----:|:--------:|:------:|
+| User Interface      | ✅                 | ✅      | ✅      | ❌ PRO| ✅       | ❌         | ❌    | ❌   | ✅     | ❌    | ✅       | ✅     |
+| Multi User          | ✅                 | ✅      | ✅      | ✅    | ❌       | N/A         | N/A  | N/A  | ✅     | N/A   | ✅       | ✅     |
+| Kubernetes          | N/A                | ✅      | ❌      | plugin| ❌       | ❌         | ✅    | ✅   | ✅     | ✅    | ✅       | ✅     |
+| Docker              | N/A                | ❌      | ❌      | plugin| ❌       | ❌         | ✅    | ✅   |        |       | ✅       | ❌     |
+| Multi Kubernetes    | N/A                | ✅      | ❌      | ❌    | ❌       | ❌         | ❌    | ❌   |        |       |          |        |
+| Scaling             | ✅                 | ✅      | ❌      | ❌    | ✅       | vertically | ❌    | ❌   |        |       |          |        |
+| Autoscaling         | ✅                 | ✅      | ❌      | ❌    | ❌       | ❌         | ❌    | ❌   |        |       |          |        |
+| Cronjobs            | ✅                 | ✅      | ❌      | ✅    | ❌       | ✅         | ✅    | ✅   | ✅     | ❌    |          | ✅     |
+| CLI                 | ✅                 | ✅      | ❌      | ✅    | ✅       | ✅         | ✅    | ✅   | ✅     | ✅    |          |        |
+| API                 | ✅                 | ✅      | ❌      | ❌ PRO| ✅       | ❌         | ❌    | ✅   | ✅     | ✅    |          |        |
+| Autodeployment      | ✅                 | ✅      | ✅      | ❌    | ✅       | ❌         | ❌    | ❌   |        |       |          |        |
+| Pull-Request-Apps   | ✅                 | ✅      | ✅      | ❌    | ❌       | ❌         | ❌    | ❌   |        |       |          |        |
+| CI/CD               | ✅                 | ✅      | ✅      | ✅    | ❌       | ✅         | ❌    | ❌   |        |       |          |        |
+| Dataclips           | ✅                 | ❌      | ❌      | ❌    | ❌       | ❌         | ❌    | ❌   |        |       |          |        |
+| Vulnerability scans | ❌                 | ✅      | ❌      | ❌    | ❌       | ❌         | ❌    | ❌   | ❌     | ❌    | ❌       | ✅     |
+| Builtin Addons      | ✅                 | ✅      | ✅      | plugin| ✅       | ❌         | ❌    | ❌   |        |       | ❌       | ✅     |
+| Builtin Services    | ✅                 | ❌      | ✅      | ❌    | ✅       | ❌         | ❌    | ❌   |        |       | ✅       | ❌     |
+| Any language        | ✅                 | ✅      | ✅      | ✅    | ✅       | ✅         | ✅    | ✅   |        |       |          |        |
 
 ## Criteria
 **User interface**
@@ -59,6 +61,9 @@ The app should have a CLI to manage the running applications.
 **API**
 The app should have an API to manage the running applications.
 
+**Vulnerability Scans**
+The app should be able run vulnerbility scans on the running apps.
+
 **CI/CD**
 The app should be able to deploy apps from git repositories.
 
@@ -68,10 +73,10 @@ The app should listen to git pushes on a branch (webhooks)
 **Pullrequest Apps**
 Tha app should automaticly start a new app for every pull request.
 
-**Built in addons**
-The app should have built in addons like databases, caches, queues, etc.
+**Built in add-ons**
+The app should have built in add-ons like databases, caches, queues, etc.
 
-**Built in Services**
+**Built in Services/Templates**
 The app should have built in services like Wordpress, Nextcloud, CachetHQ, etc.
 
 **Any language**
