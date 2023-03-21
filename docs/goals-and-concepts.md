@@ -6,15 +6,16 @@ id: goals-and-concepts
 # Goals and Concept
 Kubero brings the convenience of Heroku/platform.sh/Vercel.dev to your Kubernetes cluster. Your developers should not need to worry about the underlying infrastructure and deployment. Kubero is a tool that helps you to deploy your application in a Kubernetes cluster.
 
-Kubero is basically a Kubernetes Operator with a UI, API, and CLI.
+Kubero is basically a Kubernetes Operator with a UI, API, and CLI. It allows you to deploy your application in a Kubernetes cluster without writing any Kubernetes manifests or Dockerfiles.
+
+<img src="https://raw.githubusercontent.com/kubero-dev/kubero/main/docs/img/highlevel.png" />
 
 ## CI/CD
-Kubero comes with an integrated CI/CD pipeline, which allows you to deploy your App with a simple push into a branch, or even start a new instance based on your Pull-Request.
-
-You can use it to deploy your application in a Kubernetes cluster or deploy your prebuilt container images.
+You can use it to deploy your application in a Kubernetes cluster. Kubero comes with an integrated CI/CD pipeline, which allows you to deploy your App with a simple push into a branch, or even start a new instance based on a Pull-Request.
 
 The Pipeline does not build a container image. It only pulls your code and runs the build scripts, which are mounted into your running container. Since the Images are not built, pushed, and pulled from a registry, Kubero is a very fast solution.
 
+Nevertheless, you can also deploy already built container images.
 
 ## Integrations/Buildpacks
 
