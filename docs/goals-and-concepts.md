@@ -4,18 +4,22 @@ id: goals-and-concepts
 
 
 # Goals and Concept
-Kubero brings the convenience of Heroku/platform.sh/Vercel.dev to your Kubernetes cluster. Your developers should not need to worry about the underlying infrastructure and deployment. Kubero is a tool that helps you to deploy your application in a Kubernetes cluster.
+Kubero is a powerful tool that allows you to deploy your application in a Kubernetes cluster without the need for writing Kubernetes manifests or Dockerfiles. It is designed to simplify the deployment process for developers, so they can focus on building their applications, without worrying about the underlying infrastructure.
 
-Kubero is basically a Kubernetes Operator with a UI, API, and CLI. It allows you to deploy your application in a Kubernetes cluster without writing any Kubernetes manifests or Dockerfiles.
+In essence, Kubero is a Kubernetes Operator with a user-friendly UI. It requires only two containers:
+ - The Kubero Operator
+ - The Kubero UI
 
 <img src="https://raw.githubusercontent.com/kubero-dev/kubero/main/docs/img/highlevel.png" />
 
-## CI/CD
-You can use it to deploy your application in a Kubernetes cluster. Kubero comes with an integrated CI/CD pipeline, which allows you to deploy your App with a simple push into a branch, or even start a new instance based on a Pull-Request.
+To manage your application, Kubero provides multiple options, including the Kubero UI, the Kubero CLI, or the Kubectl. All data is stored and persisted in the Kubernetes API, which ensures data consistency and reliability.
 
-The Pipeline does not build a container image. It only pulls your code and runs the build scripts, which are mounted into your running container. Since the Images are not built, pushed, and pulled from a registry, Kubero is a very fast solution.
+## Streamlined CI/CD Process
+Kubero's integrated CI/CD pipeline enables developers to deploy their applications quickly and easily. Kubero comes with an integrated CI/CD pipeline, which allows you to deploy your App with a simple push into a branch, or even start a new instance based on a Pull-Request.
 
-Nevertheless, you can also deploy already built container images.
+The pipeline doesn't build a container image; instead, it pulls your code and runs the build scripts, which are mounted into your running container. This approach makes Kubero an incredibly fast solution compared to traditional methods that require building, pushing, and pulling container images from a registry.
+
+That being said, Kubero can also deploy pre-built container images, giving you the flexibility to choose the approach that best suits your needs.
 
 ## Integrations/Buildpacks
 
