@@ -3,7 +3,7 @@ id: quickstart
 slug: /
 ---
 
-The easiest way to install Kubero is to use the Kubero CLI. It will install all required components and configure everything for you. It is also possible to install every component separately.
+The easiest way to install Kubero is to use the Kubero CLI from your Desktop. It will install all required components and configure everything for you. It is also possible to install every component separately.
 
 Currently the CLI has integrations the following Kubernetes providers:
 - scaleway
@@ -15,7 +15,7 @@ Currently the CLI has integrations the following Kubernetes providers:
 But it is possible to install Kubero on every Kubernetes cluster grater than 1.19.
 
 # Quickstart
-1) Download and unpack the <a href="https://github.com/kubero-dev/kubero-cli/releases/latest">Kubero CLI</a>
+1) Download and unpack the <a href="https://github.com/kubero-dev/kubero-cli/releases/latest">Kubero CLI</a> binary for your operating system
 
 2) Run the kubero install command and follow the instructions
 
