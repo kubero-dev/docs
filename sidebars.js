@@ -53,6 +53,7 @@ const sidebars = {
         'Installation/base',
         'Installation/authentication',
         'Installation/configuration',
+        'Installation/upgrade',
       ],
     },
     {
