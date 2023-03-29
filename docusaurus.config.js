@@ -82,6 +82,11 @@ const config = {
           */
           /*{to: '/blog', label: 'Blog', position: 'left'},*/
           {
+            href: 'https://demo.kubero.dev/',
+            label: 'Demo',
+            position: 'right',
+          },
+          {
             href: 'https://github.com/kubero-dev/kubero',
             label: 'GitHub',
             position: 'right',
