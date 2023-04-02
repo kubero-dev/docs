@@ -43,7 +43,7 @@ const sidebars = {
   tutorialSidebar: [
     'goals-and-concepts',
     'quickstart',
-    'comparison',
+    //'comparison',
     'screenshots',
     {
       type: 'category',
