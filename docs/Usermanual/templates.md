@@ -16,10 +16,10 @@ Required qualifications to submit a template:
 
 ## How to add a new template
 
-1) Fork this [repository](https://github.com/kubero-dev/kubero/)
-2) Create a new folder with the name of your service
-3) Add a app.yaml and service.yaml
-4) Create a pull request
+1. Fork this [repository](https://github.com/kubero-dev/kubero/)
+2. Create a new folder with the name of your service
+3. Add a app.yaml and service.yaml
+4. Create a pull request
 
 ### app.yaml
 The app yaml that describes your service technically. You can use the following template to get started.

@@ -1,5 +1,5 @@
 
-# Deployment
+# Deployment your application
 
 ## Deploy your application via UI
 1) Create a pipeline with stages and connect it with your git repository
