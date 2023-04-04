@@ -43,16 +43,14 @@ const sidebars = {
   tutorialSidebar: [
     'goals-and-concepts',
     'quickstart',
-    //'comparison',
-    'screenshots',
     {
       type: 'category',
-      label: 'Installation',
+      label: 'Getting Started',
       items: [
         'Installation/prerequisites',
-        'Installation/base',
-        'Installation/authentication',
+        'Installation/installation',
         'Installation/configuration',
+        'Installation/authentication',
         'Installation/upgrade',
       ],
     },
@@ -65,6 +63,8 @@ const sidebars = {
         'Usermanual/templates',
       ],
     },
+    //'comparison',
+    'screenshots',
     {
       type: 'category',
       label: 'Development',
