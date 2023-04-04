@@ -7,7 +7,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Kubero Docs',
-  tagline: 'Dinosaurs are cool',
+  tagline: 'Use Heroku Workflows to deploy your App',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
@@ -63,7 +63,7 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       // Replace with your project's social card
-      metadata: [{name: 'keywords', content: 'paas, kubernetes, IDP, self-hosted, kubero'}],
+      metadata: [{name: 'keywords', content: 'documentation, paas, kubernetes, IDP, self-hosted, kubero'}],
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
         title: 'Documentation',

@@ -46,6 +46,7 @@ const sidebars = {
     {
       type: 'category',
       label: 'Getting Started',
+      collapsed: false,
       items: [
         'Installation/prerequisites',
         'Installation/installation',
