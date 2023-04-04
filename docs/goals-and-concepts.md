@@ -43,9 +43,12 @@ Addons are deployed with Kubernetes Operators which are configurable over the UI
 
 These are the currently available add-ons:
  - Redis
- - Redis cluster
  - MongoDB
  - Postgres
+ - Kafka
+ - MySQL
+ - CouchDB
+ - Elasticsearch
 
 ## Articles and Tutorials
  - [Comparing selfhosted Heroku alternatives](https://dev.to/shoksuno/comparing-selfhosted-heroku-alternatives-249p)

@@ -1,6 +1,8 @@
 # Configuration
 
-Kubero has 3 sections so far:
+The kubero configuration is stored in a ConfigMap in the kubero namespace. The ConfigMap is called kubero-config and is mounted into the kubero pod under `/etc/kubero/config.yaml`.
+
+The config has three sections so far:
 
 1. kubero: configures the UI
 2. buildpacks: the selectable list of buildpacks
@@ -10,9 +12,12 @@ A full example can be found here https://github.com/kubero-dev/kubero/blob/main/
 
 ```yaml
 kubero:
-  context: kind-kubero
-  namespace: kubero
-  port: 3000
+  readonly: false
+  banner:
+    show: false
+    message: "Welcome to Kubero!"
+    bgcolor: "#8560A9"
+    fontcolor: "azure"
 buildpacks:
   - name: NodeJS             # displayed Name
     language: JavaScript     # Language detection match

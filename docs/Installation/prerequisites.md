@@ -7,6 +7,6 @@ You can use any Kubernetes cluster. If you don't have access to a Kubernetes clu
 ### Starting a local Kind cluster
 
 ```bash
-wget kind create cluster --config https://raw.githubusercontent.com/kubero-dev/kubero/main/kind.yaml
+wget https://raw.githubusercontent.com/kubero-dev/kubero/main/kind.yaml
 kind create cluster --config kind.yaml
 ```
