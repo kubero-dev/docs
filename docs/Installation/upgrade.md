@@ -21,7 +21,7 @@ To upgrade Kubero just rerun the install operator command. It will upgrade all c
 
 ## Uninstall Kubero
 
-:::info
+:::warning
 
 Deleting the Kubero Operator will delete all Kubero CRDs and all Kubero resources. This will also delete all Kubero apps and pipelines.
 

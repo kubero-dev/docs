@@ -59,6 +59,7 @@ const sidebars = {
       label: 'User Manual',
       items: [
         'Usermanual/deployment',
+        'Usermanual/addons',
         'Usermanual/templates',
         'Usermanual/buildpacks',
       ],
