@@ -2,7 +2,7 @@ import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
 
-# Upgrade
+# Upgrade and Uninstall
 
 ## Upgrade to the latest version
 
@@ -16,5 +16,20 @@ To upgrade Kubero just rerun the install operator command. It will upgrade all c
   <TabItem value="cli" label="Kubero CLI">
 
       kubero install -c kubero-operator
+  </TabItem>
+</Tabs>
+
+## Uninstall Kubero
+
+:::info
+
+Deleting the Kubero Operator will delete all Kubero CRDs and all Kubero resources. This will also delete all Kubero apps and pipelines.
+
+:::
+
+<Tabs groupId="install-strategy">
+  <TabItem value="kubectl" label="kubectl">
+
+      kubectl delete -f https://raw.githubusercontent.com/kubero-dev/kubero-operator/main/deploy/operator.yaml
   </TabItem>
 </Tabs>

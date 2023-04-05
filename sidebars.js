@@ -51,7 +51,6 @@ const sidebars = {
         'Installation/prerequisites',
         'Installation/installation',
         'Installation/configuration',
-        'Installation/authentication',
         'Installation/upgrade',
       ],
     },
@@ -59,9 +58,9 @@ const sidebars = {
       type: 'category',
       label: 'User Manual',
       items: [
-        'Usermanual/buildpacks',
         'Usermanual/deployment',
         'Usermanual/templates',
+        'Usermanual/buildpacks',
       ],
     },
     //'comparison',
