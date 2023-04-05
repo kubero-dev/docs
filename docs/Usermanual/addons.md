@@ -17,8 +17,6 @@ Some basic add-ons are installed with the Kubero operator. So no special install
 <img src="/assets/screenshots/addons.png" alt="Screenshot of available Kubero add-ons"/>
 
 
-Add-ons are installed with the Kubero operator. So no special action is needed here.
-
 ### Third party Operators
 
 Add-ons can also be installed with a third party operator. They work the same way as any other KuberoApp CRD's.
