@@ -1,8 +1,12 @@
+---
+title: Upgrade/Uninstall
+---
+
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
 
-# Upgrade and Uninstall
+# Upgrade or Uninstall
 
 ## Upgrade to the latest version
 
