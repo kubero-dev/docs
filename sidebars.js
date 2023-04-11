@@ -61,7 +61,16 @@ const sidebars = {
       items: [
         'Usermanual/deployment',
         'Usermanual/addons',
-        'Usermanual/templates',
+        'Usermanual/volumes',
+        {
+          type: 'category',
+          label: 'Templates',
+          collapsed: false,
+          items: [
+            'Usermanual/templates/overview',
+            'Usermanual/templates/wordpress',
+          ],
+        },
         'Usermanual/buildpacks',
       ],
     },

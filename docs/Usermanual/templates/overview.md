@@ -1,4 +1,4 @@
-# Templates
+# Overview
 
 Templates are preconfigured application. They help you to create a new application with a specific configuration.
 
