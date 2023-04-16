@@ -18,3 +18,13 @@ Volumes are mounted read-write-many or read-write-once. This means that multiple
 The available storage classes are listed in the dropdown menu and depend on the storage classes available in your cluster/provider.
 
 <img src="/assets/screenshots/create_volumes.png" alt="Screenshot of adding a volume to an app"/>
+
+
+## Kind
+
+In Kind all volumes are mounted as read-write-once but can be mounted in multiple containers. 
+
+## Linode
+
+Linode does not support read-write-many volumes. You allways select read-write-once volumes. 
+https://www.linode.com/community/questions/22004/kubernetes-pvcs-with-readwritemany 

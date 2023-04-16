@@ -49,10 +49,12 @@ podSizeList:
       cpu: 500m
 ```
 
-Store the adjusted config in a configmap in the kubero namespace
+Store the adjusted config in kubero UI CRD and apply it.
+
+```bash
+kubectl edit kuberoes kubero - kubero
 ```
-kubectl create configmap kubero-config --from-file=config.yaml=config.yaml -n kubero
-```
+
 
 
 ## Authentication
