@@ -18,7 +18,7 @@
 | User Interface      | ✅                 | ✅      | ✅      | ❌ PRO| ✅       | ❌         | ❌    | ❌   | ✅     | ❌    | ✅       | ✅     |
 | Multi User          | ✅                 | ✅      | ✅      | ✅    | ❌       | N/A         | N/A  | N/A  | ✅     | N/A   | ✅       | ✅     |
 | Kubernetes          | N/A                | ✅      | ❌      | plugin| ❌       | ❌         | ✅    | ✅   | ✅     | ✅    | ✅       | ✅     |
-| Docker              | N/A                | ❌      | ❌      | plugin| ❌       | ❌         | ✅    | ✅   |        |       | ✅       | ❌     |
+| Docker              | N/A                | ❌      | ✅      | plugin| ❌       | ❌         | ✅    | ✅   |        |       | ✅       | ❌     |
 | Multi Kubernetes    | N/A                | ✅      | ❌      | ❌    | ❌       | ❌         | ❌    | ❌   |        |       |          |        |
 | Scaling             | ✅                 | ✅      | ❌      | ❌    | ✅       | vertically | ❌    | ❌   |        |       |          |        |
 | Autoscaling         | ✅                 | ✅      | ❌      | ❌    | ❌       | ❌         | ❌    | ❌   |        |       |          |        |
