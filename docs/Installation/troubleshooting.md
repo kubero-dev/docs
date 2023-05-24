@@ -70,7 +70,7 @@ kuberoredis.application.kubero.dev                    2023-01-01T01:10:45Z
 ### Check if the Kubero operator is running
 
 ```bash
-kubectk get pods --all-namespaces | grep kubero-operator-controller-manager
+kubectl get pods --all-namespaces | grep kubero-operator-controller-manager
 ```
 
 ```bash title="Expected result"
