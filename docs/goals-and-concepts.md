@@ -49,6 +49,7 @@ These are the currently available add-ons:
  - MySQL
  - CouchDB
  - Elasticsearch
+ - Haraka Mail Server
 
 ## Articles and Tutorials
  - [Comparing selfhosted Heroku alternatives](https://dev.to/shoksuno/comparing-selfhosted-heroku-alternatives-249p)

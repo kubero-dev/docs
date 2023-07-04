@@ -13,6 +13,7 @@ Some basic add-ons are installed with the Kubero operator. So no special install
 - Kafka
 - CouchDB
 - Elasticsearch
+- Haraka Mail Server
 
 <img src="/assets/screenshots/addons.png" alt="Screenshot of available Kubero add-ons"/>
 
