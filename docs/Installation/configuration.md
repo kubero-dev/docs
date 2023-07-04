@@ -52,7 +52,7 @@ podSizeList:
 Store the adjusted config in kubero UI CRD and apply it.
 
 ```bash
-kubectl edit kuberoes kubero - kubero
+kubectl edit kuberoes kubero -n kubero
 ```
 
 
