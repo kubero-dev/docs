@@ -36,16 +36,23 @@ kubectl get ingress -n kubero
 ```
 
 ```bash title="Expected result"
-NAME     CLASS   HOSTS             ADDRESS         PORTS     AGE
-kubero   nginx   demo.kubero.dev   45.79.240.209   80, 443   8d
+NAME                      CLASS   HOSTS                      ADDRESS         PORTS     AGE
+kubero                    nginx   demo.kubero.dev            45.79.240.209   80, 443   126d
+kubero-registry-ingress   nginx   registry.demo.kubero.dev   45.79.240.209   80, 443   8d  <---- Optional
 ```
 
 ### Check if the DNS entry is correct
 
 ```bash
-dig demo.kubero.dev
+dig demo.kubero.dev +noall +question +answer
 ```
 
+```bash title="Expected result"
+; <<>> DiG 9.10.6 <<>> demo.kubero.dev +noall +question +answer
+;; global options: +cmd
+;demo.kubero.dev.		IN	A
+demo.kubero.dev.	11574	IN	A	45.79.240.209
+```
 
 ## 2. Kubero is not starting the apps
 
