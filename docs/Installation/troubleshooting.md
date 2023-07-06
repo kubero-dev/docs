@@ -24,8 +24,9 @@ kubectl get pods -n kubero
 ```
 
 ```bash title="Expected result"
-NAME                     READY   STATUS    RESTARTS   AGE
-kubero-cbd7f7c4c-pp997   1/1     Running   0          32h
+NAME                               READY   STATUS    RESTARTS   AGE
+kubero-785c84f85f-d65t2            1/1     Running   0          6d18h
+kubero-registry-7d6d5cdb74-8fqm2   1/1     Running   0          8d  <---- Optional
 ```
 
 ### Check the Kubero ingress
