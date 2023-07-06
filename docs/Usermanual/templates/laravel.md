@@ -7,3 +7,7 @@ Therefore we have created a [PHP buildpack](https://github.com/kubero-dev/buildp
 
 ## preconfigured Templates
 Laravel and Symfony require a special configuration to run on Kubernetes. We have created a template to preconfigure the ENV vars and the volumes.
+
+https://demo.kubero.dev/#/pipeline/demo/test/apps/new?service=symfony 
+
+https://demo.kubero.dev/#/pipeline/demo/test/apps/new?service=laravel 
