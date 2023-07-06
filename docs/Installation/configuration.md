@@ -2,7 +2,13 @@
 
 ## Kubero UI
 
-The kubero configuration is stored in a ConfigMap in the kubero namespace. The ConfigMap is called kubero-config and is mounted into the kubero pod under `/etc/kubero/config.yaml`.
+## Customize the Kubero configuration
+Allways edit the `kuberoes` CRD to make changes in your Kubero configuration. Changes on the configmap will be overwritten by the operator. 
+
+```bash
+kubectl edit kuberoes kubero -n kubero
+```
+
 
 The config has three sections so far:
 

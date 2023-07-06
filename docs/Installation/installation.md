@@ -170,10 +170,3 @@ registry:
   storageClassName:
 ```
 
-
-## Customize the Kubero configuration
-Edit the `kubero` section to customize the Kubero configuration.
-
-```bash
-kubectl edit kuberoes kubero -n kubero
-```
