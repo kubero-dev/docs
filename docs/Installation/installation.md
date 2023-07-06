@@ -102,6 +102,7 @@ kubero install -c kubero-ui
 
 
 ### Install Kubero UI with kubectl
+These steps are not required if you have installed the Kubero UI with the Kubero CLI.
 
 #### Crate the namespace
 ```
@@ -133,7 +134,46 @@ kubectl create secret generic kubero-secrets \
  kubectl apply -f https://raw.githubusercontent.com/kubero-dev/kubero-operator/main/config/samples/application_v1alpha1_kubero.yaml -n kubero
 ```
 
-### Customize the Kubero configuration
+## Enable the Kubero Registry
+
+:::info
+
+This config requires Kubero Operator >= v0.0.137
+
+**This step is optional.**
+
+:::
+
+The Kubero Registry is a central place to store and share your CI/CD images. It is required to use the Dockerfile and Nixpacks buildstrategy for your applications.
+
 ```bash
-kubectl edit configmap kubero-config -n kubero
+kubectl edit kuberoes kubero -n kubero
+```
+
+Edit/add the registry section:
+```yaml
+registry:
+  enabled: true  # creates registry credentials for a external or a local registry (required for build strategy apps)
+  create: true   # spins up a local registry
+  #host: registry.kubero.svc.cluster.local  # works for pushes, but not for pulls. DO NOT USE THIS :( since it requires to configure all nodes ot acceppt this "insecure" registry
+  #host: docker.io                          # requires a docker account. Might be the best choice when running on a non public domain
+  host: registry.mykubero.com               # will make your images publicly avaialble with a basic auth protection
+  account:
+    # create account with:
+    # docker run --entrypoint htpasswd httpd:2 -Bbn [username] [password]
+    # http://aspirine.org/htpasswd_en.html (use bcrypt)
+    username: MyUser
+    password: MyPassword
+    hash: $2y$05$cXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+  port: 443
+  storage: 1Gi
+  storageClassName:
+```
+
+
+## Customize the Kubero configuration
+Edit the `kubero` section to customize the Kubero configuration.
+
+```bash
+kubectl edit kuberoes kubero -n kubero
 ```
