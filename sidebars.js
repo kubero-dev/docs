@@ -69,6 +69,7 @@ const sidebars = {
           items: [
             'Usermanual/templates/overview',
             'Usermanual/templates/wordpress',
+            'Usermanual/templates/php',
           ],
         },
         'Usermanual/buildpacks',
