@@ -41,6 +41,19 @@ kubero                    nginx   demo.kubero.dev            45.79.240.209   80,
 kubero-registry-ingress   nginx   registry.demo.kubero.dev   45.79.240.209   80, 443   8d  <---- Optional
 ```
 
+### Check the SSL Cert Manager
+
+Make sure all Certmanager components are running 
+```bash title="Expected result"
+kubectl get pods -n cert-manager
+NAME                                      READY   STATUS      RESTARTS       AGE
+cert-manager-99bb69456-x285b              1/1     Running     39 (39h ago)   171d
+cert-manager-cainjector-ffb4747bb-cktsq   0/1     Completed   22             218d
+cert-manager-cainjector-ffb4747bb-r8gbt   1/1     Running     43 (39h ago)   171d
+cert-manager-webhook-545bd5d7d8-282n5     1/1     Running     0              171d
+```
+The logs of these pods may hint at what is going wrong.
+
 ### Check if the DNS entry is correct
 
 ```bash
