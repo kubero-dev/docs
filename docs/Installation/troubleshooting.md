@@ -98,7 +98,7 @@ kubectl logs kubero-operator-controller-manager-XXXXXXXX-yyyyyyy -n kubero-opera
 ```
 
 
-## 3. You cant issue SSL Certs for you apps
+## 3. You can't issue SSL Certs for your apps
 
 ### Make sure your domain is accessible for letsencrypt
 
