@@ -139,6 +139,15 @@ demo-production                 node-tls-qt5v9              True                
 ### Check your cluster issuer
 
 ```
+kubectl get clusterissuers.cert-manager.io
+```
+
+```bash title="Expected result"
+NAME               READY   AGE
+letsencrypt-prod   True    222d
+```
+
+```
 kubectl get clusterissuers.cert-manager.io letsencrypt-prod -o yaml
 ```
 
