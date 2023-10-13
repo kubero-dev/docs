@@ -152,21 +152,22 @@ kubectl edit kuberoes kubero -n kubero
 
 Edit/add the registry section:
 ```yaml
-registry:
-  enabled: true  # creates registry credentials for a external or a local registry (required for build strategy apps)
-  create: true   # spins up a local registry
-  #host: registry.kubero.svc.cluster.local  # works for pushes, but not for pulls. DO NOT USE THIS :( since it requires to configure all nodes ot acceppt this "insecure" registry
-  #host: docker.io                          # requires a docker account. Might be the best choice when running on a non public domain
-  host: registry.mykubero.com               # will make your images publicly avaialble with a basic auth protection
-  account:
-    # create account with:
-    # docker run --entrypoint htpasswd httpd:2 -Bbn [username] [password]
-    # http://aspirine.org/htpasswd_en.html (use bcrypt)
-    username: MyUser
-    password: MyPassword
-    hash: $2y$05$cXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
-  port: 443
-  storage: 1Gi
-  storageClassName:
+spec:
+  registry:
+    enabled: true  # creates registry credentials for a external or a local registry (required for build strategy apps)
+    create: true   # spins up a local registry
+    #host: registry.kubero.svc.cluster.local  # works for pushes, but not for pulls. DO NOT USE THIS :( since it requires to configure all nodes ot acceppt this "insecure" registry
+    #host: docker.io                          # requires a docker account. Might be the best choice when running on a non public domain
+    host: registry.mykubero.com               # will make your images publicly avaialble with a basic auth protection
+    account:
+      # create account with:
+      # docker run --entrypoint htpasswd httpd:2 -Bbn [username] [password]
+      # http://aspirine.org/htpasswd_en.html (use bcrypt)
+      username: MyUser
+      password: MyPassword
+      hash: $2y$05$cXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+    port: 443
+    storage: 1Gi
+    storageClassName:
 ```
 
