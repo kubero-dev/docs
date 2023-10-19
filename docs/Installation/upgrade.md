@@ -10,7 +10,7 @@ import TabItem from '@theme/TabItem';
 
 ## Upgrade to the latest version
 
-To upgrade Kubero just rerun the install operator command. It will upgrade all components to the latest version.
+To upgrade the Kubero operator just rerun the install operator command. It will upgrade all components to the latest version.
 
 <Tabs groupId="install-strategy">
   <TabItem value="kubectl" label="kubectl">
@@ -22,6 +22,14 @@ To upgrade Kubero just rerun the install operator command. It will upgrade all c
       kubero install -c kubero-operator
   </TabItem>
 </Tabs>
+
+## Upgrade Kubero UI
+
+To upgrade the Kubero UI replace the image tag in the Kubero UI CRD.
+
+```batch
+kubectl patch kuberoes.application.kubero.dev kubero -p '{"spec":{"image":{"tag":"v1.11"}}}' --type=merge -n kubero
+```
 
 ## Uninstall Kubero
 
