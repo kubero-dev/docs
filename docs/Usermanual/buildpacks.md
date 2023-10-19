@@ -46,5 +46,5 @@ In the run stage, there are two options: worker and web. Only the web pod is att
 This config is stored in your Kubernetes cluster and can be changed by kubectl.
 
 ```bash
-kubectl edit configmaps -n kubero kubero-config
+kubectl edit kuberoes kubero -n kubero
 ```
