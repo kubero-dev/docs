@@ -26,6 +26,22 @@ kubero:
     message: "Welcome to Kubero!"
     bgcolor: "#8560A9"
     fontcolor: "azure"
+clusterissuer: letsencrypt-prod
+templates:
+  enabled: true
+  catalogs:
+  - name: "Kubero"
+    description: "Kubero templates"
+    templateBasePath: "https://raw.githubusercontent.com/kubero-dev/kubero/main/services/"
+    index: 
+      url: "https://raw.githubusercontent.com/kubero-dev/templates/main/index.json"
+      format: "json" # json or yaml # TODO has no effect yet. json is always used
+  - name: "Kubero Frameworks"
+    description: "Kubero frameworks"
+    templateBasePath: "https://raw.githubusercontent.com/kubero-dev/kubero/main/services/"
+    index: 
+      url: "https://raw.githubusercontent.com/kubero-dev/templates/main/index-frameworks.json"
+      format: "json" # json or yaml # TODO has no effect yet. json is always used
 buildpacks:
   - name: NodeJS             # displayed Name
     language: JavaScript     # Language detection match
