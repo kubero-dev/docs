@@ -139,7 +139,47 @@ kubectl apply -f secrets.yaml -n kubero
 ```
 
 ### Github
-If you have already have a Github team and want to grant access to them, use this section.
+If you have already have a Github Organisation and want to grant access to them, use this section.
 
-### Oauth2 (gitea)
+1. go to organisation settings -> developer settings -> OAuth Apps and register an application
+<img src="configuration-github-1.png" />
+
+2. Choos a name and a homepage URL. Set the callback url to `https://<your-kubero-domain>/api/auth/github/callback`
+<img src="configuration-github-2.png" />
+
+3. You will need the Client ID and the generated Client Secret
+<img src="configuration-github-3.png" />
+
+4. Configure the kubero UI
+```yaml
+kubero:
+  auth:
+    github:
+      enabled: true
+      id: "<your client id>"
+      callbackUrl: "<your callback URL>"
+      org: "your-org" # this will limit access to this organisation
+```
+
+:::info
+
+The Organisation needs to be public and visible in user profile. Private Organisations are not supported by Github since they are not accessible during login process.
+
+:::
+
+5. Add the "Client Secret" to secret
+```yaml
+apiVersion: v1
+kind: Secret
+metadata:
+  name: kubero-secrets
+type: Opaque
+stringData: 
+  GITHUB_CLIENT_SECRET: <your client secret>
+data:
+    ...
+    ...
+
+
+### Oauth2 (gitea, azure, keycloak, ...)
 This should fit all other usecases.
