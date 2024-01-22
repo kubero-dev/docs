@@ -104,7 +104,7 @@ kubero install -c kubero-ui
 ### Install Kubero UI with kubectl
 These steps are not required if you have installed the Kubero UI with the Kubero CLI.
 
-#### Crate the namespace
+#### Create the namespace
 ```
 kubectl create namespace kubero
 ```
