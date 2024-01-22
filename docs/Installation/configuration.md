@@ -142,13 +142,13 @@ kubectl apply -f secrets.yaml -n kubero
 If you have already have a Github Organisation and want to grant access to them, use this section.
 
 1. go to organisation settings -> developer settings -> OAuth Apps and register an application
-<img src="configuration-github-1.png" />
+![Regisgter your application](configuration-github-1.png)
 
 2. Choos a name and a homepage URL. Set the callback url to `https://<your-kubero-domain>/api/auth/github/callback`
-<img src="configuration-github-2.png" />
+![Configure your application](configuration-github-2.png)
 
 3. You will need the Client ID and the generated Client Secret
-<img src="configuration-github-3.png" />
+![Client ID and Client Secret](configuration-github-3.png)
 
 4. Configure the kubero UI
 ```yaml
