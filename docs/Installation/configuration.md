@@ -14,7 +14,7 @@ The config has three sections so far:
 
 1. kubero: configures the UI
 2. buildpacks: the selectable list of buildpacks
-3. podSizeList: the selectable list of bods
+3. podSizeList: the selectable list of pods
 
 A full example can be found here https://github.com/kubero-dev/kubero/blob/main/config.yaml
 
