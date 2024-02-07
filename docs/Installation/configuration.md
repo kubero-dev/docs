@@ -179,7 +179,7 @@ stringData:
 data:
     ...
     ...
-
+```
 
 ### Oauth2 (gitea, azure, keycloak, ...)
 This should fit all other usecases.
