@@ -28,3 +28,6 @@ In Kind all volumes are mounted as read-write-once but can be mounted in multipl
 
 Linode does not support read-write-many volumes. You allways select read-write-once volumes. 
 https://www.linode.com/community/questions/22004/kubernetes-pvcs-with-readwritemany 
+
+This Blog entry describes how to use a NFS server to provide read-write-many volumes in Linode.
+https://startup2scalable.com/2024/02/read-write-many-volumes-on-lke-with-nfs/
