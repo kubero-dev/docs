@@ -41,7 +41,6 @@ Deleting the Kubero Operator will delete all Kubero CRDs and all Kubero resource
 
 <Tabs groupId="install-strategy">
   <TabItem value="kubectl" label="kubectl">
-
       kubectl delete -f https://raw.githubusercontent.com/kubero-dev/kubero-operator/main/deploy/operator.yaml
   </TabItem>
 </Tabs>

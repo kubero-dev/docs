@@ -49,9 +49,9 @@ const sidebars = {
       collapsed: false,
       items: [
         'Installation/prerequisites',
-        'Installation/repositories',
         'Installation/installation',
         'Installation/configuration',
+        'Installation/repositories',
         'Installation/upgrade',
         'Installation/troubleshooting',
       ],

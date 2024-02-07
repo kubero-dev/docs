@@ -39,18 +39,28 @@ You find the preconfigured buildpacks and examples here:
 https://github.com/kubero-dev/buildpacks
 
 ## Addons/Plugins
-Addons are deployed with Kubernetes Operators which are configurable over the UI.
+Addons are deployed with Kubernetes Operators which are configurable over the UI. Built-in Addons are shipped with the Kubero Operator. The other addons require a separate installation of the operator.
 
-These are the currently available add-ons:
- - Redis
- - MongoDB
- - Postgres
- - Kafka
- - MySQL
- - CouchDB
- - Elasticsearch
- - Haraka Mail Server
+The following Addons are available:
 
+|   | Addon | Maintainer | Built in* |
+|---|-------|------------|-----------|
+| <img src="https://raw.githubusercontent.com/kubero-dev/kubero/main/client/public/img/addons/MySQL.png" width="30px" /> | MySQL | [Bitnami](https://charts.bitnami.com/bitnami) | ✅ |
+| <img src="https://raw.githubusercontent.com/kubero-dev/kubero/main/client/public/img/addons/postgresql.png" width="30px" /> | PostgreSQL | [Bitnami](https://charts.bitnami.com/bitnami) | ✅ |
+| <img src="https://raw.githubusercontent.com/kubero-dev/kubero/main/client/public/img/addons/Redis.png" width="30px" /> | Redis | [Bitnami](https://charts.bitnami.com/bitnami) | ✅ |
+| <img src="https://raw.githubusercontent.com/kubero-dev/kubero/main/client/public/img/addons/MongoDB.png" width="30px" /> | MongoDB | [Bitnami](https://charts.bitnami.com/bitnami) | ✅ |
+| <img src="https://raw.githubusercontent.com/kubero-dev/kubero/main/client/public/img/addons/Elasticsearch.png" width="30px" /> | Elasticsearch | [Bitnami](https://charts.bitnami.com/bitnami)  | ✅ |
+| <img src="https://raw.githubusercontent.com/kubero-dev/kubero/main/client/public/img/addons/Kafka.png" width="30px" /> | Kafka | [Bitnami](https://charts.bitnami.com/bitnami)  | ✅ |
+| <img src="https://raw.githubusercontent.com/kubero-dev/kubero/main/client/public/img/addons/CouchDB.png" width="30px" /> | CouchDB | [Apache](https://apache.github.io/couchdb-helm) | ✅ |
+| <img src="https://raw.githubusercontent.com/kubero-dev/kubero/main/client/public/img/addons/Haraka.png" width="30px" /> | Haraka Mail Server | [Kubero](https://github.com/kubero-dev/haraka-docker) | ✅ |
+| <img src="https://raw.githubusercontent.com/kubero-dev/kubero/main/client/public/img/addons/Memcached.png" width="30px" /> | Memcache | [Bitnami](https://charts.bitnami.com/bitnami)  | ✅ |
+| <img src="https://raw.githubusercontent.com/kubero-dev/kubero/main/client/public/img/addons/RabbitMQ.png" width="30px" /> | RabbitMQ | [Bitnami](https://charts.bitnami.com/bitnami)  | ✅ |
+| <img src="https://raw.githubusercontent.com/kubero-dev/kubero/main/client/public/img/addons/cloudflare.svg" width="30px" /> | Cludflare Tunnels | [Adianth](https://github.com/adyanth/cloudflare-operator) |  |
+| <img src="https://raw.githubusercontent.com/kubero-dev/kubero/main/client/public/img/addons/Minio.png" width="30px" /> | Minio | [Minio](https://artifacthub.io/packages/olm/community-operators/minio-operator) |  |
+| <img src="https://raw.githubusercontent.com/kubero-dev/kubero/main/client/public/img/addons/MongoDB.png" width="30px" /> | Percona MongoDB Cluster | [Percona](https://artifacthub.io/packages/olm/community-operators/mongodb-operator) |  |
+| <img src="https://raw.githubusercontent.com/kubero-dev/kubero/main/client/public/img/addons/postgresql.png" width="30px" /> | Crunchy Postgres Cluster | [Crunchy Data](https://artifacthub.io/packages/olm/community-operators/postgresql) |  |
+| <img src="https://raw.githubusercontent.com/kubero-dev/kubero/main/client/public/img/addons/Redis.png" width="30px" /> | Redis Cluster | [Opstree](https://artifacthub.io/packages/olm/community-operators/redis-operator) |  |
+| <img src="https://raw.githubusercontent.com/kubero-dev/kubero/main/client/public/img/addons/CockroachDB.svg" width="30px" /> | CockroachDB| [CockroachDB](https://artifacthub.io/packages/olm/community-operators/cockroachdb) |  |
 ## Articles and Tutorials
  - [Kubero : alternative à Heroku pour Kubernetes](https://dev.to/deep75/kubero-alternative-a-heroku-pour-kubernetes--19am)
  - [Comparing selfhosted Heroku alternatives](https://dev.to/shoksuno/comparing-selfhosted-heroku-alternatives-249p)
