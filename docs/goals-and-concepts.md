@@ -6,6 +6,9 @@ id: goals-and-concepts
 # Goals and Concept
 Kubero is a powerful tool that allows you to deploy your application in a Kubernetes cluster without the need for writing Kubernetes manifests or Dockerfiles. It is designed to simplify the deployment process for developers, so they can focus on building their applications, without worrying about the underlying infrastructure.
 
+It implements the Heroku-like experience on top of Kubernetes. Here is a direct comparison of the features:
+[Heroku vs Kubero](comparison.md)
+
 In essence, Kubero is a Kubernetes Operator with a user-friendly UI. It requires only two containers:
  - The Kubero Operator
  - The Kubero UI
