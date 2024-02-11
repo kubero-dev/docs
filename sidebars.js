@@ -76,7 +76,7 @@ const sidebars = {
         'Usermanual/buildpacks',
       ],
     },
-    //'comparison',
+    'comparison-heroku',
     'screenshots',
     {
       type: 'category',
