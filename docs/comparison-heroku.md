@@ -15,14 +15,13 @@
 | Environment variables | ✅     | ✅                | ✅     |
 | Writable Volumes      |        |                   | ✅     |
 | SSL                   | ✅     | ✅                | ✅     |
-| Activity Logs (Audit) | ✅     | ✅                | ✅     |
 | Console Access        | ✅     | ✅                | ✅     |
 | Autodeployment        | ✅     | ✅                | ✅     |
 | Pull-Request-Apps     | ✅     | ✅                | ✅     |
 | CI/CD                 | ✅     | ✅                | ✅     |
+| Activity Logs (Audit) | ✅     | ✅                | ✅     |
 | Realtime Logs         | ✅     | ✅                | ✅     |
-| Historic metrics      | ✅     | ✅                |        |
-| Dataclips             | ✅     | ✅                |        |
+| Historic Metrics      | ✅     | ✅                |        |
 | Webhooks              | ✅     | ✅                |        |
 | Vulnerability scans   |        |                   | ✅     |
 | Builtin Addons        | ✅     | ✅                | ✅     |
@@ -36,11 +35,12 @@
 | GitOps with Bitbucket |        |                   | ✅     |
 | GitOps with Gitea     |        |                   | ✅     |
 | GitOps with Gogs      |        |                   | ✅     |
-| Postgres Add-On       | ✅     | ✅                | ✅     |
-| MySQL Add-On          | ✅     | ✅                | ✅     |
-| RappitMQ Add-On       | ✅     | ✅                | ✅     |
-| MongoDB Add-On        | ✅     | ✅                | ✅     |
-| ElasticSearch Add-On  | ✅     | ✅                | ✅     |
-| Memcached Add-On      | ✅     | ✅                | ✅     |
-| Kafka Add-On          | ✅     | ✅                | ✅     |
-| CouchDB Add-On        |        |                   | ✅     |
+| Add-On Postgres       | ✅     | ✅                | ✅     |
+| Add-On MySQL          | ✅     | ✅                | ✅     |
+| Add-On RappitMQ       | ✅     | ✅                | ✅     |
+| Add-On MongoDB        | ✅     | ✅                | ✅     |
+| Add-On ElasticSearch  | ✅     | ✅                | ✅     |
+| Add-On Memcached      | ✅     | ✅                | ✅     |
+| Add-On Kafka          | ✅     | ✅                | ✅     |
+| Add-On CouchDB        |        |                   | ✅     |
+| Add-On Cockroach      |        |                   | ✅     |
