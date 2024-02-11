@@ -7,18 +7,22 @@
 | CLI                   | ✅     | ✅                | ✅     |
 | API                   | ✅     | ✅                | ✅     |
 | Multi User            | ✅     | ✅                | ✅     |
-| Container images      | ✅     | ✅                | ✅     |
+| Dedicated infrastructure |     | ✅                | ✅     |
+| Run container images  | ✅     | ✅                | ✅     |
 | Oauth2                |        | ✅                | ✅     |
-| Scaling               | ✅     | ✅                | ✅     |
+| Vertical scaling      | ✅     | ✅                | ✅     |
+| Horizontal scaling    | ✅     | ✅                | ✅     |
 | Autoscaling           | ✅     | ✅                | ✅     |
 | Cronjobs              | ✅     | ✅                | ✅     |
 | Environment variables | ✅     | ✅                | ✅     |
 | Writable Volumes      |        |                   | ✅     |
+| Backups               |        |                   |        |
 | SSL                   | ✅     | ✅                | ✅     |
 | Console Access        | ✅     | ✅                | ✅     |
 | Autodeployment        | ✅     | ✅                | ✅     |
 | Pull-Request-Apps     | ✅     | ✅                | ✅     |
 | CI/CD                 | ✅     | ✅                | ✅     |
+| Any language          | ✅     | ✅                | ✅     |
 | Activity Logs (Audit) | ✅     | ✅                | ✅     |
 | Realtime Logs         | ✅     | ✅                | ✅     |
 | Historic Metrics      | ✅     | ✅                |        |
@@ -26,10 +30,8 @@
 | Vulnerability scans   |        |                   | ✅     |
 | Builtin Addons        | ✅     | ✅                | ✅     |
 | Builtin Services      | ✅     | ✅                | ✅     |
-| Any language          | ✅     | ✅                | ✅     |
 | Addons/Plugins        | ✅     | ✅                | ✅     |
 | Templates             | ✅     | ✅                | ✅     |
-| Backups               |        |                   |        |
 | GitOps with Github    | ✅     | ✅                | ✅     |
 | GitOps with GitLab    |        |                   | ✅     |
 | GitOps with Bitbucket |        |                   | ✅     |
@@ -43,4 +45,4 @@
 | Add-On Memcached      | ✅     | ✅                | ✅     |
 | Add-On Kafka          | ✅     | ✅                | ✅     |
 | Add-On CouchDB        |        |                   | ✅     |
-| Add-On Cockroach      |        |                   | ✅     |
+| Add-On CockroachDB    |        |                   | ✅     |
