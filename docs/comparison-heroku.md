@@ -23,6 +23,7 @@
 | Realtime Logs         | ✅     | ✅                | ✅     |
 | Historic metrics      | ✅     | ✅                |        |
 | Dataclips             | ✅     | ✅                |        |
+| Webhooks              | ✅     | ✅                |        |
 | Vulnerability scans   |        |                   | ✅     |
 | Builtin Addons        | ✅     | ✅                | ✅     |
 | Builtin Services      | ✅     | ✅                | ✅     |
@@ -30,3 +31,16 @@
 | Addons/Plugins        | ✅     | ✅                | ✅     |
 | Templates             | ✅     | ✅                | ✅     |
 | Backups               |        |                   |        |
+| GitOps with Github    | ✅     | ✅                | ✅     |
+| GitOps with GitLab    |        |                   | ✅     |
+| GitOps with Bitbucket |        |                   | ✅     |
+| GitOps with Gitea     |        |                   | ✅     |
+| GitOps with Gogs      |        |                   | ✅     |
+| Postgres Add-On       | ✅     | ✅                | ✅     |
+| MySQL Add-On          | ✅     | ✅                | ✅     |
+| RappitMQ Add-On       | ✅     | ✅                | ✅     |
+| MongoDB Add-On        | ✅     | ✅                | ✅     |
+| ElasticSearch Add-On  | ✅     | ✅                | ✅     |
+| Memcached Add-On      | ✅     | ✅                | ✅     |
+| Kafka Add-On          | ✅     | ✅                | ✅     |
+| CouchDB Add-On        |        |                   | ✅     |
