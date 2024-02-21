@@ -4,7 +4,7 @@ Templates are preconfigured application. They help you to create a new applicati
 
 A full list of available templates can be found [here](https://www.kubero.dev/templates).
 
-## Subumit a new template
+## Submit a new template
 
 Templates can be added to Kubero by creating a pull request to the Kubero main [repository](https://github.com/kubero-dev/kubero/).
 
