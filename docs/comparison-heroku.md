@@ -37,9 +37,9 @@
 | GitOps with Bitbucket |        |                   | ✅     |
 | GitOps with Gitea     |        |                   | ✅     |
 | GitOps with Gogs      |        |                   | ✅     |
-| Add-On Postgres       | ✅     | ✅                | ✅     |
+| Add-On PostgreSQL     | ✅     | ✅                | ✅     |
 | Add-On MySQL          | ✅     | ✅                | ✅     |
-| Add-On RappitMQ       | ✅     | ✅                | ✅     |
+| Add-On RabbitMQ       | ✅     | ✅                | ✅     |
 | Add-On MongoDB        | ✅     | ✅                | ✅     |
 | Add-On ElasticSearch  | ✅     | ✅                | ✅     |
 | Add-On Memcached      | ✅     | ✅                | ✅     |
