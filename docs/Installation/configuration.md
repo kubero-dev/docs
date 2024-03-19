@@ -26,6 +26,29 @@ kubero:
     message: "Welcome to Kubero!"
     bgcolor: "#8560A9"
     fontcolor: "azure"
+  auth:
+    github:
+      # set your secrets in the secret resource
+      enabled: false
+      id: ""
+      callbackUrl: ""
+      org: ""
+    oauth2:
+      enabled: false
+      name: ""
+      id: ""
+      authUrl: ""
+      tokenUrl: ""
+      secret: ""
+      callbackUrl: ""
+      scope: "" # space seperated list of scopes
+  auditLogs:
+    enabled: false
+    storageClassName:
+    accessModes: 
+      - ReadWriteOnce
+    size: 0.1Gi
+    limit: 1000
 clusterissuer: letsencrypt-prod
 templates:
   enabled: true
@@ -71,6 +94,31 @@ podSizeList:
       cpu: 500m
 ```
 
+## CD/CD Buildpipeline
+
+Building docker images is a common task in the CI/CD pipeline. Kubero uses the buildpacks to build the images with Dockerfiles and Nicpacks.
+
+These build images need to be pushed to a registry. The registry is configured in the `kubero` CRD. The registry requires a valid TLS certificate and a basic auth protection. 
+It is possible use a public registry like `docker.io` or `ghcr.io` or to use the built-in registry.
+
+```yaml
+registry:
+  enabled: false  # creates registry credentials for a external or a local registry (required for build strategy apps)
+  create: false   # spins up a local registry
+  #host: registry.kubero.svc.cluster.local  # works for pushes, but not for pulls. DO NOT USE THIS :( since it requires to configure all nodes ot acceppt this "insecure" registry
+  #host: docker.io                          # requires a docker account. Might be the best choice when running on a non public domain
+  host: registry.demo.kubero.dev            # will make your images publicly avaialble with a basic auth protection
+  account:
+    # create account with:
+    # docker run --entrypoint htpasswd httpd:2 -Bbn [username] [password]
+    # http://aspirine.org/htpasswd_en.html (use bcrypt)
+    username: kubero
+    password: kubero
+    hash: $2y$05$czQZpvtDYc5OzM/1r1pH0eAplT/okohh/mXoWl/Y65ZP/8/jnSWZq
+  port: 443
+  storage: 1Gi
+  storageClassName:
+```
 
 
 ## Authentication
