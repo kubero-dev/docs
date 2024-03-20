@@ -101,6 +101,8 @@ Building docker images is a common task in the CI/CD pipeline. Kubero uses the b
 These build images need to be pushed to a registry. The registry is configured in the `kubero` CRD. The registry requires a valid TLS certificate and a basic auth protection. 
 It is possible use a public registry like `docker.io` or `ghcr.io` or to use the built-in registry.
 
+https://docs.docker.com/reference/cli/dockerd/#insecure-registries for more information about insecure registries.
+
 ```yaml
 registry:
   enabled: false  # creates registry credentials for a external or a local registry (required for build strategy apps)
