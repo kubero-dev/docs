@@ -14,6 +14,7 @@
 | Horizontal scaling    | ✅     | ✅                | ✅     |
 | Autoscaling           | ✅     | ✅                | ✅     |
 | Cronjobs              | ✅     | ✅                | ✅     |
+| Dark Mode             |        |                   | ✅     |
 | Environment variables | ✅     | ✅                | ✅     |
 | Writable Volumes      |        |                   | ✅     |
 | Backups               |        |                   |        |
