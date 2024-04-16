@@ -27,7 +27,7 @@
 | Activity Logs (Audit) | ✅     | ✅                | ✅     |
 | Realtime Logs         | ✅     | ✅                | ✅     |
 | Historic Metrics      | ✅     | ✅                |        |
-| Webhooks              | ✅     | ✅                |        |
+| Webhooks              | ✅     | ✅                | ✅     |
 | Vulnerability scans   |        |                   | ✅     |
 | Builtin Addons        | ✅     | ✅                | ✅     |
 | Builtin Services      | ✅     | ✅                | ✅     |
