@@ -1,4 +1,4 @@
-# Installing Kubero on a [colima](https://github.com/abiosoft/colima) setup
+# Installing Kubero on a miniKube setup
 
 
 ### 1. Install minikube on macOS
