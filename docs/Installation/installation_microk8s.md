@@ -60,3 +60,24 @@ kubectl create secret generic kubero-secrets \
 
 5. (Optional) configure the clusterissuer for cert-manager
 
+```yaml
+apiVersion: cert-manager.io/v1
+kind: ClusterIssuer
+metadata:
+  annotations:
+  name: letsencrypt-prod
+spec:
+  acme:
+    email: changeme@yourdomain.com
+    privateKeySecretRef:
+      name: letsencrypt
+    server: https://acme-v02.api.letsencrypt.org/directory
+    solvers:
+    - http01:
+        ingress:
+          class: nginx
+```
+
+```bash
+kubectl apply -f clusterissuer.yaml
+```
