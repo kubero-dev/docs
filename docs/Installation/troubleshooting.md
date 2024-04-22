@@ -4,6 +4,13 @@ title: Troubleshooting
 
 # Troubleshooting Kubero installation
 
+There is a kubero debug command in the kubero-cli to help you troubleshoot your installation. 
+
+```bash
+kubero debug
+```
+
+
 ## 1. Kubero UI is not accessible
 
 ### Check the Kubero UI CRD
