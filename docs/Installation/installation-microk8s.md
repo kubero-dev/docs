@@ -14,16 +14,36 @@ Optional but recommended:
 microk8s enable metrics-server cert-manager
 ```
 
-### 3. Install Kubero Operator
+extract your kubeconfig and switch the context to this config
 ```bash
-kubectl apply -f https://raw.githubusercontent.com/kubero-dev/kubero-operator/main/deploy/operator.yaml
+microk8s config > ~/.kube/config
+kubectl config use-context microk8s
 ```
+
+find the IP of the ingress controller
+```bash
+k get nodes -o wide
+```
+
+Point your domain to the IP from INTERNAL-IP field
+
+### 3. Install Kubero Operator
+<Tabs groupId="install-strategy">
+  <TabItem value="kubectl" label="kubectl">
+
+      kubectl apply -f https://raw.githubusercontent.com/kubero-dev/kubero-operator/main/deploy/operator.yaml
+  </TabItem>
+  <TabItem value="cli" label="Kubero CLI">
+
+      kubero install -c kubero-operator
+  </TabItem>
+</Tabs>
 
 ### 4. Install Kubero UI
 
 Run the kubero-cli to install the Kubero UI
 ```bash
-kubero install -c kubero-io
+kubero install -c kubero-ui
 ```
 
 **Or** create the namespace, secrets and CRD manually
