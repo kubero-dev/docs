@@ -1,10 +1,10 @@
-Installing Kubero on a MicroK8s cluster 
+# Installing Kubero on a MicroK8s cluster 
 
 
-1. Install MicroK8s
+### 1. Install MicroK8s
 https://microk8s.io/docs/getting-started 
 
-2. Enable the required MicroK8s addons
+### 2. Enable the required MicroK8s addons
 ```bash
 microk8s enable dns ingress 
 ```
@@ -14,12 +14,12 @@ Optional but recommended:
 microk8s enable metrics-server cert-manager
 ```
 
-3. Install Kubero Operator
+### 3. Install Kubero Operator
 ```bash
 kubectl apply -f https://raw.githubusercontent.com/kubero-dev/kubero-operator/main/deploy/operator.yaml
 ```
 
-4. Install Kubero UI
+### 4. Install Kubero UI
 
 Run the kubero-cli to install the Kubero UI
 ```bash
@@ -58,7 +58,7 @@ kubectl create secret generic kubero-secrets \
  kubectl apply -f https://raw.githubusercontent.com/kubero-dev/kubero-operator/main/config/samples/application_v1alpha1_kubero.yaml -n kubero
 ```
 
-5. (Optional) configure the clusterissuer for cert-manager
+### 5. (Optional) configure the clusterissuer for cert-manager
 
 ```yaml
 apiVersion: cert-manager.io/v1
