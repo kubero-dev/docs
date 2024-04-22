@@ -1,3 +1,6 @@
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
 # Installing Kubero on a MicroK8s cluster 
 
 
@@ -28,6 +31,7 @@ k get nodes -o wide
 Point your domain to the IP from INTERNAL-IP field
 
 ### 3. Install Kubero Operator
+
 <Tabs groupId="install-strategy">
   <TabItem value="kubectl" label="kubectl">
 
