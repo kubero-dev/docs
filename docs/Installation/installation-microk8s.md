@@ -17,13 +17,15 @@ Optional but recommended:
 microk8s enable metrics-server cert-manager
 ```
 
-extract your kubeconfig and switch the context to this config
+Extract your kubeconfig and switch the context to this config
 ```bash
 microk8s config > ~/.kube/config
 kubectl config use-context microk8s
 ```
 
-find the IP of the ingress controller
+> For shortcut, use alias k = kubectl
+
+Find the IP of the ingress controller
 ```bash
 k get nodes -o wide
 ```
