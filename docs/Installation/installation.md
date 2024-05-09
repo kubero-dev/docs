@@ -4,14 +4,18 @@ import TabItem from '@theme/TabItem';
 # Installation
 This is the installation guide for Kubero. It will guide you through the installation of the required components, the Kubero Operator and the Kubero UI.
 
+the Kubero CLI is currently using KIND. There are specific installation guides for [minikube](./installation-minikube.md), [microk8s](./installation-microk8s.md) and [colima](./installation-colima.md).
+
+
 All these steps can be performed with the Kubero CLI or [kubectl](https://kubernetes.io/docs/tasks/tools/#kubectl). You can download the latest Kubero CLI version from the [releases page](https://github.com/kubero-dev/kubero-cli/releases/latest)
+
 
 ### Prerequisites
 - Kubernetes cluster
 - [kubectl](https://kubernetes.io/docs/tasks/tools/#kubectl)
 - [Kubero CLI (optional)](https://github.com/kubero-dev/kubero-cli/releases/latest)
 
-::: info
+:::info
 
 Kubero is designed to run with Nginx Ingress Controller, Metrics Server and Cert Manager. If you are using a different Ingress Controller, you will need to adjust the installation steps accordingly. Some features like Metrics and Proxy configurations (CORS, Bodysize, ... ) may not work.
 
