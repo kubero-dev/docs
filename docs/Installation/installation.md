@@ -11,6 +11,14 @@ All these steps can be performed with the Kubero CLI or [kubectl](https://kubern
 - [kubectl](https://kubernetes.io/docs/tasks/tools/#kubectl)
 - [Kubero CLI (optional)](https://github.com/kubero-dev/kubero-cli/releases/latest)
 
+::: info
+
+Kubero is designed to run with Nginx Ingress Controller, Metrics Server and Cert Manager. If you are using a different Ingress Controller, you will need to adjust the installation steps accordingly. Some features like Metrics and Proxy configurations (CORS, Bodysize, ... ) may not work.
+
+It might be improved in later versions.
+
+:::
+
 ## Components
 
 ### Ingress Controller
