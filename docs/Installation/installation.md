@@ -56,6 +56,31 @@ The Certmanager is requirede to generate and manage TLS certificates.
   </TabItem>
 </Tabs>
 
+### Monitoring Stack
+(introduced in version v2.3.0)
+
+In order to monitor your app with longterm statistics (metrics section), you will need to install Prometheus and kube-metrics. 
+<Tabs groupId="install-strategy">
+  <TabItem value="kubectl" label="kubectl">
+
+      kubectl apply -f https://raw.githubusercontent.com/kubero-dev/kubero-operator/main/config/samples/application_v1alpha1_kuberoprometheus.yaml
+  </TabItem>
+  <TabItem value="cli" label="Kubero CLI">
+
+      kubero install -c monitoring
+  </TabItem>
+</Tabs>
+
+
+:::info
+
+Make sure you nginx ingress controller is configured as described here : 
+
+https://github.com/kubernetes/ingress-nginx/blob/main/docs/user-guide/monitoring.md
+
+::: 
+
+
 ## Kubero Operator
 
 There are two ways to install Kubero:
