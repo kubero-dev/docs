@@ -7,11 +7,23 @@
 
 ---
 
+<img src="https://raw.githubusercontent.com/kubero-dev/kubero/main/docs/screenshots/app-overview.png" />
+
+---
+
+<img src="https://raw.githubusercontent.com/kubero-dev/kubero/main/docs/screenshots/app-metrics.png" />
+
+---
+
 <img src="https://raw.githubusercontent.com/kubero-dev/kubero/main/docs/screenshots/app-logs.png" />
 
 ---
 
-<img src="https://raw.githubusercontent.com/kubero-dev/kubero/main/docs/screenshots/app-overview.png" />
+<img src="https://raw.githubusercontent.com/kubero-dev/kubero/main/docs/screenshots/app-events.png" />
+
+---
+
+<img src="https://raw.githubusercontent.com/kubero-dev/kubero/main/docs/screenshots/app-vulnerabilities.png" />
 
 ---
 
