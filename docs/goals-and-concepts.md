@@ -49,3 +49,4 @@ Addons are deployed with Kubernetes Operators which are configurable over the UI
  - [Comparing selfhosted Heroku alternatives](https://dev.to/shoksuno/comparing-selfhosted-heroku-alternatives-249p)
  - [The simplest way to run your own Heroku on Kubernetes](https://dev.to/shoksuno/the-simplest-way-to-run-your-own-heroku-on-kubernetes-3l03)
  - [Replace Heroku with Kubero on Kubernetes (part 1)](https://dev.to/shoksuno/replace-heroku-with-kubero-on-kubernetes-2aoj)
+ - [Kubero: A Powerful Heroku Alternative for Your Development Needs](https://medevel.com/kubero/)
