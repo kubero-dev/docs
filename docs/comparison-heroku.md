@@ -8,7 +8,6 @@
 | API                   | ✅     | ✅                | ✅     |
 | Multi User            | ✅     | ✅                | ✅     |
 | Dedicated infrastructure |     | ✅                | ✅     |
-| Run container images  | ✅     | ✅                | ✅     |
 | Oauth2                |        | ✅                | ✅     |
 | Vertical scaling      | ✅     | ✅                | ✅     |
 | Horizontal scaling    | ✅     | ✅                | ✅     |
@@ -17,12 +16,16 @@
 | Dark Mode             |        |                   | ✅     |
 | Environment variables | ✅     | ✅                | ✅     |
 | Writable Volumes      |        |                   | ✅     |
-| Backups               |        |                   |        |
+| DB-Backup             |        |                   |        |
 | SSL                   | ✅     | ✅                | ✅     |
 | Console Access        | ✅     | ✅                | ✅     |
 | Autodeployment        | ✅     | ✅                | ✅     |
 | Pull-Request-Apps     | ✅     | ✅                | ✅     |
+| Run container images  | ✅     | ✅                | ✅     |
 | CI/CD                 | ✅     | ✅                | ✅     |
+| Buildpacks            | ✅     | ✅                | ✅     |
+| Dockerfiles           | ✅     | ✅                | ✅     |
+| Nixpacks              |        |                   | ✅     |
 | Any language          | ✅     | ✅                | ✅     |
 | Activity Logs (Audit) | ✅     | ✅                | ✅     |
 | Realtime Logs         | ✅     | ✅                | ✅     |
