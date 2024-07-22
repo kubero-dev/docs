@@ -3,20 +3,21 @@
 
 |                       | Heroku | Heroku Enterprise | Kubero | 
 |-----------------------|:------:|:-----------------:|:------:|
-| User Interface        | ✅     | ✅                | ✅     |
+| User interface        | ✅     | ✅                | ✅     |
 | CLI                   | ✅     | ✅                | ✅     |
 | API                   | ✅     | ✅                | ✅     |
-| Multi User            | ✅     | ✅                | ✅     |
+| Multi user            | ✅     | ✅                | ✅     |
 | Dedicated infrastructure |     | ✅                | ✅     |
 | Oauth2                |        | ✅                | ✅     |
 | Vertical scaling      | ✅     | ✅                | ✅     |
 | Horizontal scaling    | ✅     | ✅                | ✅     |
 | Autoscaling           | ✅     | ✅                | ✅     |
+| Sleeping Dynos/Pods   | ✅     |                   |        |
 | Cronjobs              | ✅     | ✅                | ✅     |
 | Dark Mode             |        |                   | ✅     |
 | Environment variables | ✅     | ✅                | ✅     |
 | Writable Volumes      |        |                   | ✅     |
-| DB-Backup             |        |                   |        |
+| DB-Backups            |        |                   |        |
 | SSL                   | ✅     | ✅                | ✅     |
 | Console Access        | ✅     | ✅                | ✅     |
 | Autodeployment        | ✅     | ✅                | ✅     |
@@ -29,13 +30,11 @@
 | Any language          | ✅     | ✅                | ✅     |
 | Activity Logs (Audit) | ✅     | ✅                | ✅     |
 | Realtime Logs         | ✅     | ✅                | ✅     |
-| Historic Metrics      | ✅     | ✅                |        |
+| Historic Metrics      | ✅     | ✅                | ✅     |
 | Webhooks              | ✅     | ✅                | ✅     |
 | Vulnerability scans   |        |                   | ✅     |
-| Builtin Addons        | ✅     | ✅                | ✅     |
-| Builtin Services      | ✅     | ✅                | ✅     |
-| Addons/Plugins        | ✅     | ✅                | ✅     |
 | Templates             | ✅     | ✅                | ✅     |
+| Role based access     | ✅     | ✅                |        |
 | GitOps with Github    | ✅     | ✅                | ✅     |
 | GitOps with GitLab    |        |                   | ✅     |
 | GitOps with Bitbucket |        |                   | ✅     |
