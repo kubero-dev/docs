@@ -8,15 +8,16 @@
 | API                   | ✅     | ✅                | ✅     |
 | Multi user            | ✅     | ✅                | ✅     |
 | Dedicated infrastructure |     | ✅                | ✅     |
-| Oauth2                |        | ✅                | ✅     |
+| SSO Oauth2            |        | ✅                | ✅     |
+| Role based access     | ✅     | ✅                |        |
 | Vertical scaling      | ✅     | ✅                | ✅     |
 | Horizontal scaling    | ✅     | ✅                | ✅     |
 | Autoscaling           | ✅     | ✅                | ✅     |
-| Sleeping Dynos/Pods   | ✅     |                   |        |
+| Sleeping Dynos/Pods   | ✅     |                   | ✅     |
 | Cronjobs              | ✅     | ✅                | ✅     |
 | Dark Mode             |        |                   | ✅     |
 | Environment variables | ✅     | ✅                | ✅     |
-| Writable Volumes      |        |                   | ✅     |
+| **Writable Volumes**  |        |                   | ✅     |
 | DB-Backups            |        |                   |        |
 | SSL                   | ✅     | ✅                | ✅     |
 | Console Access        | ✅     | ✅                | ✅     |
@@ -26,15 +27,14 @@
 | CI/CD                 | ✅     | ✅                | ✅     |
 | Buildpacks            | ✅     | ✅                | ✅     |
 | Dockerfiles           | ✅     | ✅                | ✅     |
-| Nixpacks              |        |                   | ✅     |
-| Any language          | ✅     | ✅                | ✅     |
+| **Nixpacks**          |        |                   | ✅     |
+| Runpacks              |        |                   | ✅     |
 | Activity Logs (Audit) | ✅     | ✅                | ✅     |
-| Realtime Logs         | ✅     | ✅                | ✅     |
+| Realtime App Logs     | ✅     | ✅                | ✅     |
 | Historic Metrics      | ✅     | ✅                | ✅     |
 | Webhooks              | ✅     | ✅                | ✅     |
-| Vulnerability scans   |        |                   | ✅     |
+| **Vulnerability scans**|        |                   | ✅     |
 | Templates             | ✅     | ✅                | ✅     |
-| Role based access     | ✅     | ✅                |        |
 | GitOps with Github    | ✅     | ✅                | ✅     |
 | GitOps with GitLab    |        |                   | ✅     |
 | GitOps with Bitbucket |        |                   | ✅     |

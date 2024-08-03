@@ -29,6 +29,23 @@ The following Addons are available:
 
 *Built in means that the addon is installed with the Kubero operator.
 
+#### Planned Add-ons
+Aerospike
+TiDB
+ArangoDB
+Cassandra
+InfluxDB
+MariaDB
+Prometheus
+ImmuDB
+
+#### Longterm future Add-ons
+Crossplane
+Neo4j
+Presto
+TimescaleDB
+Zookeeper
+RethinkDB
 <hr />
 
 <img src="/assets/screenshots/addons.png" alt="Screenshot of available Kubero add-ons"/>
