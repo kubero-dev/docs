@@ -2,7 +2,7 @@
 
 :::info
 
-This comparison is outdated (crated 26.02.2023). Some of these tools evolved and added new features. Please check the official documentation of the tools for the latest features.
+This comparison is outdated (created 26.02.2023). Some of these tools evolved and added new features. Please check the official documentation of the tools for the latest features.
 
 :::
 
