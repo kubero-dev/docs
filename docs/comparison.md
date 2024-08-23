@@ -1,5 +1,12 @@
 # Comparison to alternatives
 
+:::info
+
+This comparison is outdated (crated 26.02.2023). Some of these tools evolved and added new features. Please check the official documentation of the tools for the latest features.
+
+:::
+
+
 - Kubero [https://www.kubero.dev](https://www.kubero.dev)
 - Coolify [https://coolify.io](https://coolify.io/)
 - Capover [https://caprover.com](https://caprover.com)
