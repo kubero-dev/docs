@@ -19,14 +19,15 @@ The available storage classes are listed in the dropdown menu and depend on the 
 
 <img src="/assets/screenshots/create_volumes.png" alt="Screenshot of adding a volume to an app"/>
 
+## read-write-many (RWM) volumes
+Linode, OVH and many others does not support read-write-many volumes by default. You'll need to create read-write-once. This might be a problem if you want to scale your app horizontally by adding more pods. 
 
-## Kind
+### Kind
 
 In Kind all volumes are mounted as read-write-once but can be mounted in multiple containers. 
 
-## Linode, OVH and other Providers
+### Linode, OVH and other Providers
 
-Linode, OVH and many others does not support read-write-many volumes by default. You'll need to create read-write-once. This might be a problem if you want to scale your app horizontally by adding more pods. 
 https://www.linode.com/community/questions/22004/kubernetes-pvcs-with-readwritemany 
 
 This Blog entry describes how to use a NFS server to provide read-write-many volumes in Linode.
