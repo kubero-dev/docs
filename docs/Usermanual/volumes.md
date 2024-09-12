@@ -24,10 +24,16 @@ The available storage classes are listed in the dropdown menu and depend on the 
 
 In Kind all volumes are mounted as read-write-once but can be mounted in multiple containers. 
 
-## Linode
+## Linode, OVH and other Providers
 
-Linode does not support read-write-many volumes. You allways select read-write-once volumes. 
+Linode, OVH and many others does not support read-write-many volumes by default. You'll need to create read-write-once. This might be a problem if you want to scale your app horizontally by adding more pods. 
 https://www.linode.com/community/questions/22004/kubernetes-pvcs-with-readwritemany 
 
 This Blog entry describes how to use a NFS server to provide read-write-many volumes in Linode.
 https://startup2scalable.com/2024/02/read-write-many-volumes-on-lke-with-nfs/
+
+There are also some projects that provide a solution to mount read-write-many volumes: 
+
+ - (rook.io)[https://rook.io/docs/rook/latest-release/Storage-Configuration/Shared-Filesystem-CephFS/filesystem-storage/#consume-the-shared-filesystem-k8s-registry-sample]
+ - (longhorn.io)[https://onairotich.medium.com/exploring-longhorn-a-game-changer-for-kubernetes-storage-5a9068387818] 
+ - (OpenEBS.io)[https://openebs.io/docs/2.12.x/concepts/rwm]
