@@ -73,7 +73,7 @@ const sidebars = {
             'Usermanual/templates/php',
           ],
         },
-        'Usermanual/buildpacks',
+        'Usermanual/runpacks',
       ],
     },
     'screenshots',
