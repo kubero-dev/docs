@@ -1,38 +1,39 @@
-# Buildpacks
+# Runpacks
 
 :::info
 
-Buildpacks have nothing in common with buildpacks.io. Your Code will not be built into the running image but mounted read-only into the running image.
+Runpacks where originally called Builpacks. The name was changed to Runpacks to avoid confusion with the CNCF's buildpacks.io .
+It might still appear as Buildpacks in some parts of the documentation and configuration files.
 
 :::
 
-Kubero buildpack-images rely on public available images.
 
-Examples of Kubero Buildpacks can be found here: https://github.com/kubero-dev/buildpacks/tree/main/packs
+Kubero Runpacks rely on public available images. 
 
+Examples of Kubero Runpacks can be found here: https://github.com/kubero-dev/runpacks/tree/main/packs
 
-Buildpacks are defined as a set of three containers:
+Runpacks are defined as a set of three containers:
 
 ## Fetch (init container)
 Fetches the code from a Git repository.
-There is a working fetch container from kubero. But if you wish to build your own, you are free to change it in the buildpack configuration.
+There is a working fetch container from kubero. But if you wish to build your own, you are free to change it in the runpack configuration.
 
 ## Build (init container)
 Runs the build commands.
-You can define which image will be used by selecting the buildpack. The buildpack can be configured with any Docker image.
+You can define which image will be used by selecting the runpack. The runpack can be configured with any Docker image.
 
 ## Run (container)
 Run the final container
 In the run stage, there are two options: worker and web. Only the web pod is attached to the ingress and will be accessible from outside the cluster.
 
-## Example for a buildpack configuration:
+## Example for a runpack configuration:
 
 ```yaml
   - name: Python
     language: Python
     fetch:
-      repository: ghcr.io/kubero-dev/buildpacks/fetch
-      tag: main
+      repository: ghcr.io/kubero-dev/fetch
+      tag: v1
     build:
       repository: python
       tag: 3.10-buster
