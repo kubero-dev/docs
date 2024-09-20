@@ -24,7 +24,7 @@ The pipeline doesn't build a container image; instead, it pulls your code and ru
 
 That being said, Kubero can also deploy pre-built container images, giving you the flexibility to choose the approach that best suits your needs.
 
-## Integrations/Buildpacks
+## Integrations/Runpacks
 
 You can run everything that runs in a container. Kubero uses default images to build and run your app. But you can build your own builder if required. And create your custom deployment packs.
 
@@ -38,8 +38,8 @@ You can run everything that runs in a container. Kubero uses default images to b
 - ...
 
 
-You find the preconfigured buildpacks and examples here:
-https://github.com/kubero-dev/buildpacks
+You find the preconfigured runpacks and examples here:
+https://github.com/kubero-dev/runpacks
 
 ## Addons/Plugins
 Addons are deployed with Kubernetes Operators which are configurable over the UI. Built-in Addons are shipped with the Kubero Operator. The other addons require a separate installation of the operator.

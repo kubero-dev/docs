@@ -6,13 +6,14 @@ Kubero has 2 different deployment strategies. Docker and GitOps. Both strategies
 
 ### Docker
 Select this stratiegy to deploy existing docker containers. Kubero will pull the image and run it.
+
 ### GitOps
 Use this strategy to deploy your application from a git repository. Kubero will clone the repository and run the build scripts. This strategy is the fastest way to deploy your application.
 
 #### Build strategies
 Gitops allows you to select from thre different build strategies:
 
-##### Plain
+##### Runpacks
 This is the default for kubero. Your code is running on official images. The code will be built for every pod. This the fastes way, to run your code, but becomes more inefficient with every replica.
 
 ##### Nixpacks

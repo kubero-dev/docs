@@ -69,7 +69,7 @@ buildpacks:
   - name: NodeJS             # displayed Name
     language: JavaScript     # Language detection match
     fetch:
-      repository: ghcr.io/kubero-dev/buildpacks/fetch
+      repository: ghcr.io/kubero-dev/fetch
       tag: main
     build:
       repository: node       # image to use
@@ -96,7 +96,7 @@ podSizeList:
 
 ## CD/CD Buildpipeline
 
-Building docker images is a common task in the CI/CD pipeline. Kubero uses the buildpacks to build the images with Dockerfiles and Nicpacks.
+Building docker images is a common task in the CI/CD pipeline. Kubero uses the runpacks to build the images with Dockerfiles and Nicpacks.
 
 These build images need to be pushed to a registry. The registry is configured in the `kubero` CRD. The registry requires a valid TLS certificate and a basic auth protection. 
 It is possible use a public registry like `docker.io` or `ghcr.io` or to use the built-in registry.
