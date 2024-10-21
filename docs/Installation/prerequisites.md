@@ -27,7 +27,7 @@ brew tap kubero-dev/kubero
 brew install kubero-cli
 ```
 
-### Environment variables for cloudcredentials
+### Environment variables for cloudcredentials (optional)
 
 In order to enable the Kubero CLI to create clusters on cloud providers, you need to set the following environment variables:
 

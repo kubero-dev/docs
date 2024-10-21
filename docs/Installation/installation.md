@@ -1,8 +1,8 @@
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-# Installation
-This is the installation guide for Kubero. It will guide you through the installation of the required components, the Kubero Operator and the Kubero UI.
+# Installation (vanilla, Kind)
+This is the installation guide for Kubero on a vanilla Kubernetes. This fits also for Kind clusters. It will guide you through the installation of the required components, the Kubero Operator and the Kubero UI.
 
 the Kubero CLI is currently using KIND. There are specific installation guides for [minikube](./installation-minikube.md), [microk8s](./installation-microk8s.md) and [colima](./installation-colima.md).
 

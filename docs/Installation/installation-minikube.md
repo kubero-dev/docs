@@ -1,4 +1,4 @@
-# Installing Kubero on a miniKube setup
+# Installation on miniKube
 
 
 ### 1. Install minikube on macOS

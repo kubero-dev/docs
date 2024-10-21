@@ -1,6 +1,6 @@
-# Installing Kubero on a [colima](https://github.com/abiosoft/colima) setup
+# Installation on colima
 
-Runs on macOS only
+Runs on macOS only with [colima](https://github.com/abiosoft/colima)
 
 ### 1. Install colima
 

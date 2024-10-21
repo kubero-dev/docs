@@ -49,7 +49,16 @@ const sidebars = {
       collapsed: false,
       items: [
         'Installation/prerequisites',
-        'Installation/installation',
+        {
+          type: 'category',
+          label: 'Installation',
+          items: [
+            'Installation/installation',
+            'Installation/installation-colima',
+            'Installation/installation-microk8s',
+            'Installation/installation-minikube',
+          ],
+        },
         'Installation/configuration',
         'Installation/repositories',
         'Installation/upgrade',

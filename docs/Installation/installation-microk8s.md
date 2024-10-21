@@ -1,7 +1,7 @@
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-# Installing Kubero on a MicroK8s cluster 
+# Installation on MicroK8s 
 
 
 ### 1. Install MicroK8s
