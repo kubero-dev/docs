@@ -12,7 +12,7 @@ In essence, Kubero is a Kubernetes Operator with a user-friendly UI. It requires
  - The Kubero Operator
  - The Kubero UI
 
-<img src="https://raw.githubusercontent.com/kubero-dev/kubero/main/docs/img/highlevel.png" />
+![alt text](../static/assets/img/kubero-concept.png)
 
 To manage your application, Kubero provides multiple options, including the Kubero UI, the Kubero CLI, or the Kubectl. All data is stored and persisted in the Kubernetes API, which ensures data consistency and reliability.
 
