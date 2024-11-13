@@ -96,12 +96,17 @@ podSizeList:
 
 ## CD/CD Buildpipeline
 
-Building docker images is a common task in the CI/CD pipeline. Kubero uses the runpacks to build the images with Dockerfiles and Nicpacks.
+Building Docker images is a standard process in CI/CD pipelines. Kubero supports building images using these three methods:
+[buildpacks.io](https://buildpacks.io/), Nixpacks and Dockerfiles.
 
-These build images need to be pushed to a registry. The registry is configured in the `kubero` CRD. The registry requires a valid TLS certificate and a basic auth protection. 
-It is possible use a public registry like `docker.io` or `ghcr.io` or to use the built-in registry.
+Once built, these images must be pushed to a container registry, which is configured in the `kubero` Custom 
+Resource Definition (CRD). The target registry must have a valid **TLS certificate**, **Fully Qualified Domain Name (FQDN)**, 
+and **basic authentication** enabled for security. You can use a public (v2) registry like `docker.io` or `ghcr.io`, 
+or set up a local registry by enabling the `create` flag.
 
-https://docs.docker.com/reference/cli/dockerd/#insecure-registries for more information about insecure registries.
+If you opt for a local registry, ensure that it is configured as an insecure registry on all nodes in the cluster. 
+For details on configuring insecure registries, see the [Docker CLI documentation](https://docs.docker.com/reference/cli/dockerd/#insecure-registries).
+
 
 :::info
 
@@ -131,10 +136,10 @@ spec:
 
 
 ## Authentication
-The UI has a built-in authentication to restrict access. All methods can be used simultaneously.
+The Kubero UI has a built-in authentication to restrict access. All methods can be used simultaneously.
 
 ### Local
-This may fit for single users and very small teams. The authentication credentials are stored in the environment variable KUBERO_USERS as a base64 encoded string.
+This setup is suitable for individual users or very small teams (up to 8 credentials). Authentication credentials are stored in the environment variable `KUBERO_USERS` as a base64-encoded string.
 
 :::caution
 
@@ -196,7 +201,8 @@ kubectl apply -f secrets.yaml -n kubero
 ```
 
 ### Github
-If you have already have a Github Organisation and want to grant access to them, use this section.
+If you already have a GitHub organization and want to grant access to its members, use this section.
+
 
 1. go to organisation settings -> developer settings -> OAuth Apps and register an application
 ![Regisgter your application](configuration-github-1.png)
