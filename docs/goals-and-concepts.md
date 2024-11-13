@@ -4,37 +4,59 @@ id: goals-and-concepts
 
 
 # Goals and Concept
-Kubero provides a simple way to deploy 12-factor apps to kubernetes without the need for writing Kubernetes manifests or Dockerfiles. It is designed to simplify the deployment process for developers, so they can focus on building their applications, without worrying about the underlying infrastructure.
 
-It implements the Heroku-like experience on top of Kubernetes.
+Kubero provides a straightforward way to deploy 12-factor apps to Kubernetes without requiring developers to write 
+Kubernetes manifests or Dockerfiles. It’s designed to simplify the deployment process, enabling developers to focus 
+on building applications without worrying about the underlying infrastructure.
 
-In essence, Kubero is a Kubernetes Operator with a user-friendly UI. It requires only two containers:
- - The Kubero Operator
- - The Kubero UI
+Kubero brings a Heroku-like experience to Kubernetes.
+
+At its core, Kubero is a Kubernetes Operator with an intuitive UI, requiring only two containers:
+
+- **Kubero Operator**
+- **Kubero UI**
+
 
 ![alt text](../static/assets/img/kubero-concept.png)
 
 To manage your application, Kubero provides multiple options, including the Kubero UI, the Kubero CLI, or the Kubectl. All data is stored and persisted in the Kubernetes API, which ensures data consistency and reliability.
 
-## Streamlined CI/CD Process
-Kubero's integrated CI/CD pipeline enables developers to deploy their applications quickly and easily. Kubero comes with an integrated CI/CD pipeline, which allows you to deploy your App with a simple push into a branch, or even start a new instance based on a Pull-Request.
+## Simple Application Deployment
+Kubero uses a single Custom Resource Definition (CRD) to deploy applications. This CRD includes all the necessary information and add-ons to deploy an application.
 
-The pipeline doesn't build a container image; instead, it pulls your code and runs the build scripts, which are mounted into your running container. This approach makes Kubero an incredibly fast solution compared to traditional methods that require building, pushing, and pulling container images from a registry.
+## GitOps and CI/CD Process
 
-That being said, Kubero can also deploy pre-built container images, giving you the flexibility to choose the approach that best suits your needs.
+Kubero’s integrated CI/CD pipeline enables developers to deploy applications quickly and easily. With a simple push 
+to a branch, or by opening a pull request, you can deploy an app or even start a new instance based on the pull request.
 
-## Integrations/Runpacks
+### Runpacks
+Unlike traditional methods, the runpacks does not build a container image. Instead, it pulls your code and runs the build 
+scripts directly within a running container, significantly speeding up the process by eliminating the need to build, push, 
+and pull images from a registry.
 
-You can run everything that runs in a container. Kubero uses default images to build and run your app. But you can build your own builder if required. And create your custom deployment packs.
+### Buildpacks, Nixpacks, and Dockerfiles
+Kubero supports building images using buildpacks.io, Nixpacks, and Dockerfiles. Once built, these images must be pushed 
+to a container registry.
 
-- GoLang (including Hugo, gin-gonic)
-- Python (including Flask)
-- JavaScript/NodeJS
-- PHP (including Laravel)
-- Ruby (including Rails)
-- Static HTML
-- Rust (including Rocket)
-- ...
+### Pre-built Container Images
+Additionally, Kubero offers the flexibility to deploy pre-built container images in your existing Build environment like Github, Jenkins. 
+
+This allowing you to choose the approach 
+that best fits your workflow and deployment needs.
+
+## Integrations
+You can run any application that can run in a container. Supported languages and frameworks include:
+
+- **GoLang** (including Hugo, gin-gonic)
+- **Python** (including Flask)
+- **JavaScript/NodeJS**
+- **PHP** (including Laravel)
+- **Ruby** (including Rails)
+- **Static HTML**
+- **Rust** (including Rocket)
+- **...**
+
+Kubero's flexibility allows you to adapt the build environment to your application's specific requirements.
 
 
 You find the preconfigured runpacks and examples here:

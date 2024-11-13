@@ -6,9 +6,9 @@ Therefor you need to create a Personal Access Token (PAT) on your repository pro
 List of available repositories
 
 - GitHub
-- Gitlab
-- Bitbucket
-- Gitea
+- Gitlab (hosted and self-hosted)
+- Bitbucket (hosted and self-hosted)
+- Gitea (hosted and self-hosted)
 - Gogs
 
 ## GitHub

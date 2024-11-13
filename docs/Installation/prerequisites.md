@@ -1,8 +1,15 @@
 # Prerequisites
-In order to install Kubero, you need to have a Kubernetes cluster and the `kubectl` command line tool installed.
 
-## Kubernetes cluster
-You can use any Kubernetes cluster. If you don't have access to a Kubernetes cluster, you have a few options. One option is to use [Kind](https://kind.sigs.k8s.io/docs/user/quick-start/) to start a cluster on your desktop, server or VM. Alternatively, you can use the Kubero CLI to create a cluster on one of the many cloud providers that offer Kubernetes as a service.
+To install Kubero, you need a Kubernetes cluster and the `kubectl` command-line tool.
+
+## Kubernetes Cluster
+
+Kubero can be installed on any Kubernetes cluster. If you don’t have access to one, there are a few options to get started:
+
+- **Local Deployment**: Use [Kind (Kubernetes IN Docker)](https://kind.sigs.k8s.io/docs/user/quick-start/), Minikube, Microk8s, K3s, or Colima to create a local cluster on your desktop, server, or virtual machine.
+- **Cloud Deployment**: Use the Kubero CLI to create a cluster on one of the many cloud providers offering Kubernetes as a service. (e.g., AWS, Azure, Google Cloud, Digital Ocean, Linode, Scaleway, etc.)
+
+Choose the option that best fits your setup and proceed with the installation.
 
 ### Starting a local Kind cluster
 
