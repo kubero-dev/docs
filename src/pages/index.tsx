@@ -3,8 +3,9 @@ import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
 import HomepageFeatures from '@site/src/components/HomepageFeatures';
-import Heading from '@theme/Heading';
 import ScreenshotsGallery from '@site/src/components/ScreenshotsGallery';
+import CopyButton from '@site/src/components/CopyButton';
+import Heading from '@theme/Heading';
 
 import styles from './index.module.css';
 
@@ -24,12 +25,8 @@ function HomepageHeader() {
             Demo
           </Link>
         </div>
-        <div className="hero__script">
-          <div>
-            <button className="btn-run-script">curl -L https://get.kubero.dev | bash
-              <span className="icon"><i className="ri-file-copy-line"></i></span>
-            </button>
-          </div>
+        <div className={styles.buttons}>
+          <CopyButton />
         </div>
       </div>
     </header>
@@ -50,10 +47,3 @@ export default function Home(): JSX.Element {
     </Layout>
   );
 }
-
-// copy to clipboard
-document.querySelectorAll('.btn-run-script').forEach(button => {
-  button.addEventListener('click', () => {
-    navigator.clipboard.writeText(button.textContent);
-  });
-});
