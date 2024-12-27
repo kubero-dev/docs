@@ -2,11 +2,9 @@ import {themes as prismThemes} from 'prism-react-renderer';
 import type {Config} from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
 
-// This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
-
 const config: Config = {
   title: 'PaaS for Kubernetes',
-  tagline: 'Effortlessly Deploy 12-Factor Apps on Kubernetes - Simple, Scalable, Cloud-Native.',
+  tagline: 'Deploy 12-Factor Apps on Kubernetes Easily - Simple, Scalable, Cloud-Native.',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
@@ -15,17 +13,12 @@ const config: Config = {
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
 
-  // GitHub pages deployment config.
-  // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'kubero-dev', // Usually your GitHub org/user name.
-  projectName: 'kubero', // Usually your repo name.
+  organizationName: 'kubero-dev',
+  projectName: 'kubero',
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
 
-  // Even if you don't use internationalization, you can use this field to set
-  // useful metadata like html lang. For example, if your site is Chinese, you
-  // may want to replace "en" with "zh-Hans".
   i18n: {
     defaultLocale: 'en',
     locales: ['en'],
@@ -37,10 +30,8 @@ const config: Config = {
       {
         docs: {
           sidebarPath: './sidebars.ts',
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/kubero-dev/docs/tree/main',
+            'https://github.com/kubero-dev/docs/tree/release/v2',
         },
         blog: {
           showReadingTime: true,
@@ -48,10 +39,6 @@ const config: Config = {
             type: ['rss', 'atom'],
             xslt: true,
           },
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
           // Useful options to enforce blogging best practices
           onInlineTags: 'warn',
           onInlineAuthors: 'warn',
@@ -65,13 +52,19 @@ const config: Config = {
   ],
 
   themeConfig: {
-    // Replace with your project's social card
-
     metadata: [
       {name: 'keywords', content: 'Kubero Kubernetes Cluster PaaS Operator deployment CI/CD'},
       {name: 'description', content: 'Kubero is a platform as a service (PaaS) that enables developers to build, run, and operate applications on Kubernetes.'},
       {name: 'twitter:card', content: 'summary_large_image'},
     ],
+    announcementBar: {
+      id: "star",
+      content:
+        '⭐️ If you like Kubero, please give it a star on <a target="_blank" rel="noopener noreferrer" href="https://github.com/kubero-dev/kubero">GitHub</a>! ⭐️',
+      backgroundColor: '#6c6bbb',
+      textColor: '#fff',
+      isCloseable: true,
+    },
     image: 'img/docusaurus-social-card.jpg',
     navbar: {
       title: 'Kubero',
@@ -104,11 +97,15 @@ const config: Config = {
       style: 'dark',
       links: [
         {
-          title: 'Docs',
+          title: 'Legal',
           items: [
             {
-              label: 'Tutorial',
-              to: '/docs/intro',
+              label: 'Impressum',
+              to: '/impressum',
+            },
+            {
+              label: 'Datenschutz',
+              to: '/datenschutz',
             },
           ],
         },
@@ -116,16 +113,12 @@ const config: Config = {
           title: 'Community',
           items: [
             {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+              label: 'Github Discussions',
+              href: 'https://github.com/orgs/kubero-dev/discussions',
             },
             {
               label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
-            },
-            {
-              label: 'X',
-              href: 'https://x.com/docusaurus',
+              href: 'https://discord.gg/tafRPMWS4r',
             },
           ],
         },
@@ -137,13 +130,17 @@ const config: Config = {
               to: '/blog',
             },
             {
+              label: 'Documentations',
+              to: '/docs',
+            },
+            {
               label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
+              href: 'https://github.com/kubero-dev/kubero',
             },
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Kubero.`,
     },
     prism: {
       theme: prismThemes.github,
