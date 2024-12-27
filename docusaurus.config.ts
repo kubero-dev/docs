@@ -24,6 +24,8 @@ const config: Config = {
     locales: ['en'],
   },
 
+  plugins: ['docusaurus-plugin-sass'],
+
   presets: [
     [
       'classic',
@@ -45,7 +47,10 @@ const config: Config = {
           onUntruncatedBlogPosts: 'warn',
         },
         theme: {
-          customCss: './src/css/custom.css',
+          customCss: [
+            './src/css/custom.css',
+            /*'./node_modules/lightgallery/css/lightgallery-bundle.css',*/
+          ],
         },
       } satisfies Preset.Options,
     ],

@@ -4,6 +4,7 @@ import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
 import HomepageFeatures from '@site/src/components/HomepageFeatures';
 import Heading from '@theme/Heading';
+import ScreenshotGallery from '@site/src/components/ScreenshotsGallery';
 
 import styles from './index.module.css';
 
@@ -44,6 +45,8 @@ export default function Home(): JSX.Element {
       <HomepageHeader />
       <main>
         <HomepageFeatures />
+        <hr />
+        <ScreenshotGallery />
       </main>
     </Layout>
   );
