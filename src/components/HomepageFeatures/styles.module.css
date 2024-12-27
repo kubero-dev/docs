@@ -3,6 +3,15 @@
   align-items: center;
   padding: 2rem 0;
   width: 100%;
+
+  /*
+  background-color: var(--ifm-color-primary-lightest);
+  background-color: #e5e5f7;
+  /*opacity: 0.4;
+  background-image:  radial-gradient(#444cf7 1.2000000000000002px, transparent 1.2000000000000002px), radial-gradient(#444cf7 1.2000000000000002px, #e5e5f7 1.2000000000000002px);
+  background-size: 50px 50px;
+  background-position: 0 0,24px 24px;
+  */
 }
 
 .featureSvg {
@@ -11,5 +20,5 @@
 }
 
 .icon {
-  font-size: xx-large;
+  font-size: 23pt;
 }

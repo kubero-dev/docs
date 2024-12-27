@@ -90,6 +90,12 @@ const config: Config = {
           position: 'right',
         },
         {
+          href: 'https://discord.gg/tafRPMWS4r',
+          position: 'right',
+          className: "ri-discord-fill header--discord-link",
+          "aria-label": "Discord Community",
+        },
+        {
           href: "https://github.com/kubero-dev/kubero",
           position: "right",
           className: "header--github-link",
