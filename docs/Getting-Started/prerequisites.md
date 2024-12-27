@@ -1,3 +1,7 @@
+---
+sidebar_position: 1
+---
+
 # Prerequisites
 
 To install Kubero, you need a Kubernetes cluster and the `kubectl` command-line tool.

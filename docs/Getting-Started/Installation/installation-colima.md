@@ -1,3 +1,7 @@
+---
+sidebar_position: 4
+---
+
 # Installation on colima
 
 Runs on macOS only with [colima](https://github.com/abiosoft/colima)

@@ -1,3 +1,7 @@
+---
+sidebar_position: 4
+---
+
 # Connect Repositories
 
 To depploy your app by pullrequest or push you need to connect a repository to Kubero.
@@ -21,18 +25,18 @@ GitHub offers two types of PATs: *"fine-grained (beta)"* and *"Tokens (classic)"
 
 
 ### Tokens (classic)
-![Repository permissions Classic](repositories_token_classic.png)
+![Repository permissions Classic](./img/repositories_token_classic.png)
 
 ### Fine-grained (beta)
-![Fine Grained Persmissions](repositories_fine_graned_github_permissions.png)
+![Fine Grained Persmissions](./img/repositories_fine_graned_github_permissions.png)
 
 ## Gitea
 1. Log into Gitea and click your avatar to open the user menu, then select Settings.
 
-![Link to settings](repositories_gitea_settings.png)
+![Link to settings](./img/repositories_gitea_settings.png)
 
 2. From the Settings menu, select Applications.
 
 In the Generate New Token section, enter a name for the token, then click the Generate Token button.
 
-![Alt text](repositories_gitea_tokens.png)
+![Alt text](./img/repositories_gitea_tokens.png)

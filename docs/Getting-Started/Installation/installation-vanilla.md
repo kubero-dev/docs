@@ -1,5 +1,11 @@
+---
+sidebar_position: 1
+Title: Installation on Vanilla/Kind
+---
+
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
+
 
 # Installation (vanilla, Kind)
 This is the installation guide for Kubero on a vanilla Kubernetes. This fits also for Kind clusters. It will guide you through the installation of the required components, the Kubero Operator and the Kubero UI.

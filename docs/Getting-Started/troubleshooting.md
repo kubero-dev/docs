@@ -1,5 +1,7 @@
 ---
 title: Troubleshooting
+description: Troubleshooting Kubero installation
+sidebar_position: 6
 ---
 
 # Troubleshooting Kubero installation

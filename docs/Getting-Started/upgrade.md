@@ -1,5 +1,7 @@
 ---
 title: Upgrade/Uninstall
+description: Learn how to upgrade the Kubero operator to the latest version or uninstall it.
+sidebar_position: 5
 ---
 
 import Tabs from '@theme/Tabs';

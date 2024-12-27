@@ -1,5 +1,6 @@
 ---
 id: goals-and-concepts
+sidebar_position: 1
 ---
 
 
@@ -17,7 +18,7 @@ At its core, Kubero is a Kubernetes Operator with an intuitive UI, requiring onl
 - **Kubero UI**
 
 
-![alt text](../static/assets/img/kubero-concept.png)
+![Kubero Concept](./img/kubero-concept.png)
 
 To manage your application, Kubero provides multiple options, including the Kubero UI, the Kubero CLI, or the Kubectl. All data is stored and persisted in the Kubernetes API, which ensures data consistency and reliability.
 

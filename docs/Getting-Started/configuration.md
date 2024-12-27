@@ -1,3 +1,6 @@
+---
+sidebar_position: 3
+---
 # Configuration
 
 ## Kubero UI
@@ -205,13 +208,13 @@ If you already have a GitHub organization and want to grant access to its member
 
 
 1. go to organisation settings -> developer settings -> OAuth Apps and register an application
-![Regisgter your application](configuration-github-1.png)
+![Regisgter your application](./img/configuration-github-1.png)
 
 2. Choos a name and a homepage URL. Set the callback url to `https://<your-kubero-domain>/api/auth/github/callback`
-![Configure your application](configuration-github-2.png)
+![Configure your application](./img/configuration-github-2.png)
 
 3. You will need the Client ID and the generated Client Secret
-![Client ID and Client Secret](configuration-github-3.png)
+![Client ID and Client Secret](./img/configuration-github-3.png)
 
 4. Configure the kubero UI
 ```yaml
