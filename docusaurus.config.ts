@@ -67,10 +67,10 @@ const config: Config = {
     },
     image: 'img/docusaurus-social-card.jpg',
     navbar: {
-      title: 'Kubero',
+      title: '',
       logo: {
-        alt: 'Kubero Logo',
-        src: 'img/logo.svg',
+        alt: 'Kubero',
+        src: 'assets/logo/kubero-logo-horizontal.svg',
       },
       items: [
         {
