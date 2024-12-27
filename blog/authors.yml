@@ -2,8 +2,10 @@ gianni:
   name: Gianni
   title: Maintainer
   url: https://github.com/mms-gianni
-  image_url: https://github.com/yangshun.png
+  image_url: https://avatars.githubusercontent.com/u/2052196
   page: true
   socials:
-    x: shoks_uno
+    x: shoksuno
     github: mms-gianni
+    linkedin: gianni-carafa-237991213
+    bluesky: 'shoks.ch'
