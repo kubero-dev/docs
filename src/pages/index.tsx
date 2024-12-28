@@ -14,10 +14,21 @@ function HomepageHeader() {
   return (
     <header className={clsx('hero hero--primary', styles.heroBanner)}>
       <div className="container">
+        {/*
         <Heading as="h1" className="hero__title">
           {siteConfig.title}
         </Heading>
-        <p className="hero__subtitle">{siteConfig.tagline}</p>
+        */}
+
+        <div className="flex items-center justify-center">
+          <span className="absolute mx-auto py-4 flex border w-fit bg-gradient-to-r blur-xl opacity-50 text-white bg-clip-text text-6xl box-content font-extrabold text-transparent text-center select-none">
+              {siteConfig.title}
+          </span>
+          <h1 className="relative top-0 w-fit h-auto py-4 justify-center flex bg-gradient-to-r items-center text-white bg-clip-text text-6xl font-extrabold text-transparent text-center select-auto">
+              {siteConfig.title}
+          </h1>
+        </div>
+        <p className="hero__subtitle text-white">{siteConfig.tagline}</p>
         <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"
@@ -37,7 +48,7 @@ export default function Home(): JSX.Element {
   const {siteConfig} = useDocusaurusContext();
   return (
     <Layout
-      title={`Kuber is a ${siteConfig.title}`}
+      title={`Kubero is a ${siteConfig.title}`}
       description="Kubero is a platform as a service (PaaS) that enables developers to build, run, and operate applications on Kubernetes.">
       <HomepageHeader />
       <main>

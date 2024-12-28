@@ -31,6 +31,7 @@
   --ifm-color-primary-light: #4f4eab;
   --ifm-color-primary-lighter: #5553b0;
   --ifm-color-primary-lightest: #6c6bbb;
+  --ifm-card-background-color: #eee;
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. *//*
@@ -46,13 +47,14 @@
 }
 */
 [data-theme='dark'] {
-  --ifm-color-primary: #b2b1f7;
+  --ifm-color-primary: #3d3d64;
   --ifm-color-primary-dark: #8c8bf3;
   --ifm-color-primary-darker: #7977f1;
   --ifm-color-primary-darkest: #403eeb;
   --ifm-color-primary-light: #d8d7fb;
   --ifm-color-primary-lighter: #ebebfd;
   --ifm-color-primary-lightest: #ffffff;
+  --ifm-card-background-color: #222;
 }
 
 
@@ -81,5 +83,11 @@ html[data-theme='dark'] .header--github-link:before {
 }
 
 .header--discord-link {
-  font-size: 27px
+  font-size: 27px;
+}
+
+.header--discord-link:hover {
+  background: var(--ifm-color-emphasis-200);
+  border-radius: 50%;
+  color: white;
 }
