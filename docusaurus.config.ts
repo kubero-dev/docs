@@ -42,7 +42,7 @@ const config: Config = {
       'classic',
       {
         gtag: {
-          trackingID: 'G-PQCNBYXRL0',
+          trackingID: 'G-FQY2TJ7E9V',
           anonymizeIP: true,
         },
         docs: {
