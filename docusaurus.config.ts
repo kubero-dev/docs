@@ -75,12 +75,12 @@ const config: Config = {
       {name: 'twitter:card', content: 'summary_large_image'},
     ],
     announcementBar: {
-      id: "star",
+      id: "githubstar",
       content:
         '⭐️ If you like Kubero, please give it a star on <a target="_blank" rel="noopener noreferrer" href="https://github.com/kubero-dev/kubero">GitHub</a>! ⭐️',
       backgroundColor: '#6c6bbb',
       textColor: '#fff',
-      isCloseable: true,
+      isCloseable: false,
     },
     image: 'img/docusaurus-social-card.jpg',
     navbar: {
