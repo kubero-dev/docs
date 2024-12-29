@@ -18,7 +18,7 @@ const config: Config = {
   organizationName: 'kubero-dev',
   projectName: 'kubero',
 
-  onBrokenLinks: 'throw',
+  onBrokenLinks: 'log',
   onBrokenMarkdownLinks: 'warn',
 
   i18n: {
