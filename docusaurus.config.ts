@@ -26,12 +26,25 @@ const config: Config = {
     locales: ['en'],
   },
 
-  plugins: [tailwindPlugin],
+  plugins: [
+    tailwindPlugin,
+    [
+      '@docusaurus/plugin-google-gtag',
+      {
+        trackingID: 'G-999X9XX9XX',
+        anonymizeIP: true,
+      },
+    ],
+  ],
 
   presets: [
     [
       'classic',
       {
+        gtag: {
+          trackingID: 'G-999X9XX9XX',
+          anonymizeIP: true,
+        },
         docs: {
           sidebarPath: './sidebars.ts',
           editUrl:
