@@ -84,7 +84,7 @@ const config: Config = {
     },
     image: 'img/docusaurus-social-card.jpg',
     navbar: {
-      title: '',
+      //title: 'Kubero',
       logo: {
         alt: 'Kubero',
         src: 'assets/logo/kubero-logo-horizontal.svg',
@@ -94,13 +94,15 @@ const config: Config = {
           type: 'docSidebar',
           sidebarId: 'docsSidebar',
           position: 'left',
-          label: 'Docs',
+          label: 'Documentation',
         },
+        {to: '/templates', label: 'Templates', position: 'left'},
         {to: '/blog', label: 'Blog', position: 'left'},
         {
           href: 'https://demo.kubero.dev/',
           label: 'Demo',
           position: 'right',
+          "aria-label": "Application Demo",
         },
         {
           href: 'https://discord.gg/tafRPMWS4r',
