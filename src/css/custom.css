@@ -89,5 +89,5 @@ html[data-theme='dark'] .header--github-link:before {
 .header--discord-link:hover {
   background: var(--ifm-color-emphasis-200);
   border-radius: 50%;
-  color: white;
+  color: black;
 }
