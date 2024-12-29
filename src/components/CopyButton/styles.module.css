@@ -1,0 +1,29 @@
+.copyButton {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 0.5px;
+  display: inline-block;
+  padding: 1px 10px;
+  border-radius: 5px;
+  transition: 0.5s;
+  margin-top: 30px;
+  color: #565656;
+  background: #cbcbcb;
+  border: dotted;
+
+  width: 350px;
+  height: 50px;
+}
+
+.copyButton:hover {
+  background: #565656;
+  color: #cbcbcb;
+  cursor: pointer;
+}
+
+.icon {
+  margin-left: 15px;
+  font-size: 20px;
+}
+

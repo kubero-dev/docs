@@ -1,0 +1,12 @@
+kubernetes:
+  label: Kubernetes
+  permalink: /kubernetes
+  description: Kubernetes related posts
+kubero:
+  label: Kubero
+  permalink: /kubero
+  description: Kubero
+foo:
+  label: foo
+  permalink: /foo
+  description: Example stuff

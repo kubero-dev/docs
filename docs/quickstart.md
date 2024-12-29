@@ -1,6 +1,6 @@
 ---
 id: quickstart
-slug: /
+sidebar_position: 2
 ---
 
 # Quickstart
@@ -37,7 +37,8 @@ brew install kubero-cli
 kubero install
 ```
 
-<img src="assets/img/quickstart_console.png" />
+![Kubero Console CLI installation](./img/quickstart_console.png)
+
 
 ## Install/upgrade a single component
 

@@ -1,3 +1,9 @@
+---
+title: Screenshots
+description: Screenshots of the Kubero UI
+sidebar_position: 5
+---
+
 # Screenshots
 <img src="https://raw.githubusercontent.com/kubero-dev/kubero/main/docs/screenshots/pipeline-list.png" />
 
