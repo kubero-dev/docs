@@ -28,7 +28,7 @@ function HomepageHeader() {
               {siteConfig.title}
           </h1>
         </div>
-        <p className="hero__subtitle text-white">{siteConfig.tagline}</p>
+        <h2 className="hero__subtitle text-white font-light">{siteConfig.tagline}</h2>
         <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"

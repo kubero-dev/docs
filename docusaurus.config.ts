@@ -70,7 +70,7 @@ const config: Config = {
 
   themeConfig: {
     metadata: [
-      {name: 'keywords', content: 'Kubero Kubernetes Cluster PaaS Operator deployment CI/CD'},
+      {name: 'keywords', content: 'Kubernetes PaaS CI/CD gitops devops build'},
       {name: 'description', content: 'Kubero is a platform as a service (PaaS) that enables developers to build, run, and operate applications on Kubernetes.'},
       {name: 'twitter:card', content: 'summary_large_image'},
     ],
