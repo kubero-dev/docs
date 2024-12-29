@@ -7,12 +7,12 @@ tags: [kubero, general]
 
 ## Hello and welcome!
 
-We’re thrilled to introduce you to the official Kubero blog—a space where ideas, insights, and updates about our journey with Kubero will come to life. Whether you’re a seasoned contributor, a curious enthusiast, or someone discovering Kubero for the first time, this blog is here to keep you informed and inspired.
+We’re thrilled to introduce you to the official Kubero blog—a space where ideas, insights, and updates about our journey with Kubero will come to life. Whether you’re a seasoned Kubernaut, a curious enthusiast, or someone discovering Kubero for the first time, this blog is here to keep you informed and inspired.
 
 <!-- truncate -->
 
 ### What is Kubero?
-Kubero is our passion project, a platform designed to simplify and enhance the deployment of applications using Kubernetes. With a vision to streamline complex workflows and empower developers to focus on what they do best—building amazing applications—Kubero has been evolving thanks to an incredible community of users and contributors.
+Kubero is a passion project, a platform designed to simplify and enhance the deployment of applications using Kubernetes. With a vision to streamline complex workflows and empower developers to focus on what they do best—building amazing applications—Kubero has been evolving thanks to an incredible community of users and contributors.
 
 ### Why a Blog?
 As Kubero grows, we believe it's essential to share not just what we’re building but also why we’re building it. This blog is a place for:

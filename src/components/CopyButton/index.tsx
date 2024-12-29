@@ -16,11 +16,9 @@ export default function ScreenshotsGallery(): JSX.Element {
       event.target.innerText = 'Copied to clipboard!';
     };
     return (
-        <button ref={myRef} className={styles.copyButton}>
+        <button ref={myRef} className={styles.copyButton + ' invisible md:visible'}>
             {script}
             <span className={styles.icon}><i className="ri-file-copy-line"></i></span>
-            
-            
         </button>
     );
   }
