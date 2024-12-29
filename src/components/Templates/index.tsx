@@ -4,12 +4,12 @@ import styles from './styles.module.css';
 import { Template, TemplatesList } from './templates';
 import 'remixicon/fonts/remixicon.css'
 
-function TemplateCardY({title, icon, description}: Template) {
+function TemplateCardY({name, icon, description}: Template) {
   return (
     <div className="rounded-md drop-shadow-md transition duration-300 ease-in-out hover:scale-105 card">
       <div className="px-4">
         <i className={icon + " "+styles.icon}></i>
-        <Heading as="h3">{title}</Heading>
+        <Heading as="h3">{name}</Heading>
       </div>
       <div className="px-4">
         <p>{description}</p>
@@ -18,18 +18,18 @@ function TemplateCardY({title, icon, description}: Template) {
   );
 }
 
-function TemplateCard({title, icon, description}: Template) {
+function TemplateCard({name, icon, description, website}: Template) {
   return (
     <div className="rounded-lg shadow-md bg-neutral-100 dark:bg-neutral-700 text-left">
 
       <div className="w-20 my-5 mx-auto">
-        <img className="rounded-md" src={icon} alt={'App Icon '+ title} />
+        <img className="rounded-md" src={icon} alt={'App Icon '+ name} />
       </div>
 
       <div className="px-6 pb-6">
 
         <h3 className="mb-2 text-xl font-bold tracking-wide text-neutral-800 dark:text-neutral-50">
-          {title}
+          <a href={website} target='_blank'>{name}</a>
         </h3>
 
         <p className="mb-2 text-base text-neutral-500 dark:text-neutral-300">
@@ -42,7 +42,7 @@ function TemplateCard({title, icon, description}: Template) {
   );
 }
 
-function TemplateCardP({title, icon, description}: Template) {
+function TemplateCardP({name, icon, description}: Template) {
   return (
     <div className="relative mt-20">
       <div className="absolute mb-4 text-center transform translate-x-1/2 -top-10 right-1/2">
@@ -53,7 +53,7 @@ function TemplateCardP({title, icon, description}: Template) {
       <div className="px-8 py-4 pt-14 bg-gray-200 rounded-lg shadow dark:bg-gray-800">
           <div>
               <p className="text-center text-2xl text-gray-800 dark:text-white">
-                  {title}
+                  {name}
               </p>
               <p className="font-light text-gray-500 text-md w-60 dark:text-gray-400">
                   Your friendliest open source all-in-one automation tool ✨ Workflow automation tool 100+ integration / Enterprise automation tool / Zapier Alternative
@@ -73,7 +73,7 @@ function TemplateCardP({title, icon, description}: Template) {
 }
 
 
-function TemplateCardX({title, icon, description}: Template) {
+function TemplateCardX({name, icon, description}: Template) {
   return (
     <div className="w-full p-4 bg-gray-100 rounded-lg shadow-md dark:bg-gray-800 sm:inline-block">
         <div className="flex items-start text-left">
@@ -91,7 +91,7 @@ function TemplateCardX({title, icon, description}: Template) {
             <div className="ml-6">
                 <p className="flex items-baseline mb-0">
                     <h3 className="font-bold text-gray-600 dark:text-gray-200">
-                      {title}
+                      {name}
                     </h3>
                 </p>
                 <div className="flex items-center">
@@ -111,13 +111,13 @@ function TemplateCardX({title, icon, description}: Template) {
   );
 }
 
-function TemplateCardL({title, icon, description}: Template) {
+function TemplateCardL({name, icon, description}: Template) {
   return (
     <div className="p-6 bg-white rounded-lg shadow-md">
         <div className="relative w-16 mx-auto mb-3 -mt-10">
             <img className="-mt-1 rounded-md" src={icon} alt="cookie"/>
         </div>
-        <h3 className="font-bold text-gray-600 dark:text-gray-200">{title}</h3>
+        <h3 className="font-bold text-gray-600 dark:text-gray-200">{name}</h3>
         <span className="block w-full mb-3 leading-normal text-gray-800 ">
           {description}
         </span>
