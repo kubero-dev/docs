@@ -1,8 +1,5 @@
-import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
 import Templates from '@site/src/components/Templates';
-
-import styles from './index.module.css';
 
 export default function Home(): JSX.Element {
   return (

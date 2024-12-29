@@ -7,9 +7,9 @@ import 'remixicon/fonts/remixicon.css'
 function Feature({title, icon, description}: FeatureItem) {
   return (
     <div className="rounded-md drop-shadow-md transition duration-300 ease-in-out hover:scale-105 card">
-      <div className="px-4">
+      <div className="flex px-4">
         <i className={icon + " "+styles.icon}></i>
-        <Heading as="h3">{title}</Heading>
+        <h3 className="mt-3 ml-3">{title}</h3>
       </div>
       <div className="px-4">
         <p>{description}</p>
