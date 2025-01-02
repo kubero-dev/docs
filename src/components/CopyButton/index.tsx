@@ -13,7 +13,7 @@ export default function ScreenshotsGallery(): JSX.Element {
   
     const handleClick = (event) => {
       navigator.clipboard.writeText(script);
-      event.target.innerText = 'Copied to clipboard!';
+      myRef.current.innerText = 'Copied to clipboard!';
     };
     return (
         <button ref={myRef} className={styles.copyButton + ' invisible md:visible'}>
