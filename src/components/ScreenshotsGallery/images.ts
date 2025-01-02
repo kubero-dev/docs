@@ -59,7 +59,7 @@ export const images: CustomImage[] = [
     src: "/assets/screenshots/app-vulnerabilities.png",
     original: "https://c5.staticflickr.com/9/8768/28941110956_b05ab588c1_b.jpg",
     width: 1184,
-    height: 1485,
+    height: 1185,
     tags: [
       { value: "ui", title: "UI" },
     ],
