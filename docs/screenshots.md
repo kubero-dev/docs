@@ -5,43 +5,43 @@ sidebar_position: 5
 ---
 
 # Screenshots
-[pipeline list](/assets/screenshots/pipeline-list.png)
+![pipeline list](/assets/screenshots/pipeline-list.png)
 ---
 
-[pipeline list](/assets/screenshots/pipeline-new.png)
-
----
-
-[pipeline list](/assets/screenshots/app-overview.png)
+![pipeline new](/assets/screenshots/pipeline-new.png)
 
 ---
 
-[pipeline list](/assets/screenshots/app-metrics.png)
+![app overviews](/assets/screenshots/app-overview.png)
 
 ---
 
-[pipeline list](/assets/screenshots/app-logs.png)
+![application metrics](/assets/screenshots/app-metrics.png)
 
 ---
 
-[pipeline list](/assets/screenshots/app-events.png)
+![application logs](/assets/screenshots/app-logs.png)
 
 ---
 
-[pipeline list](/assets/screenshots/app-vulnerabilities.png)
+![kubernetes events related to this app](/assets/screenshots/app-events.png)
 
 ---
 
-[pipeline list](/assets/screenshots/app-new.png)
+![overvice of vulnerabilities in an app](/assets/screenshots/app-vulnerabilities.png)
 
 ---
 
-[pipeline list](/assets/screenshots/addons-overview.png)
+![create a new app](/assets/screenshots/app-new.png)
 
 ---
 
-[pipeline list](/assets/screenshots/login.png)
+![a list ov all addons](/assets/screenshots/addons-overview.png)
 
 ---
 
-[pipeline list](/assets/screenshots/cli.png)
+![login view](/assets/screenshots/login.png)
+
+---
+
+![kubero cli](/assets/screenshots/cli.png)
