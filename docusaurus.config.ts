@@ -5,7 +5,7 @@ import tailwindPlugin from "./plugins/tailwind-config.cjs";
 
 
 const config: Config = {
-  title: 'PaaS for Kubernetes',
+  title: 'Kubero',
   tagline: 'Deploy 12-Factor Apps on Kubernetes Easily - Simple, Scalable, Cloud-Native.',
   favicon: 'img/favicon.ico',
 

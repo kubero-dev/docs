@@ -4,8 +4,8 @@ import Templates from '@site/src/components/Templates';
 export default function Home(): JSX.Element {
   return (
     <Layout
-      title={`Kubero Templates`}
-      description="Kubero is a platform as a service (PaaS) that enables developers to build, run, and operate applications on Kubernetes.">
+      title={`Templates for simple Kubernetes deployments`}
+      description="Use one of the predefined templates to start your application on Kubernetes faster">
       <main>
         <Templates />
       </main>
