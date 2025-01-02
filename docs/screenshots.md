@@ -5,44 +5,43 @@ sidebar_position: 5
 ---
 
 # Screenshots
-<img src="https://raw.githubusercontent.com/kubero-dev/kubero/main/docs/screenshots/pipeline-list.png" />
+[pipeline list](/assets/screenshots/pipeline-list.png)
+---
+
+[pipeline list](/assets/screenshots/pipeline-new.png)
 
 ---
 
-<img src="https://raw.githubusercontent.com/kubero-dev/kubero/main/docs/screenshots/pipeline-new.png" />
+[pipeline list](/assets/screenshots/app-overview.png)
 
 ---
 
-<img src="https://raw.githubusercontent.com/kubero-dev/kubero/main/docs/screenshots/app-overview.png" />
+[pipeline list](/assets/screenshots/app-metrics.png)
 
 ---
 
-<img src="https://raw.githubusercontent.com/kubero-dev/kubero/main/docs/screenshots/app-metrics.png" />
+[pipeline list](/assets/screenshots/app-logs.png)
 
 ---
 
-<img src="https://raw.githubusercontent.com/kubero-dev/kubero/main/docs/screenshots/app-logs.png" />
+[pipeline list](/assets/screenshots/app-events.png)
 
 ---
 
-<img src="https://raw.githubusercontent.com/kubero-dev/kubero/main/docs/screenshots/app-events.png" />
+[pipeline list](/assets/screenshots/app-vulnerabilities.png)
 
 ---
 
-<img src="https://raw.githubusercontent.com/kubero-dev/kubero/main/docs/screenshots/app-vulnerabilities.png" />
+[pipeline list](/assets/screenshots/app-new.png)
 
 ---
 
-<img src="https://raw.githubusercontent.com/kubero-dev/kubero/main/docs/screenshots/app-new.png" />
+[pipeline list](/assets/screenshots/addons-overview.png)
 
 ---
 
-<img src="https://raw.githubusercontent.com/kubero-dev/kubero/main/docs/screenshots/addons-overview.png" />
+[pipeline list](/assets/screenshots/login.png)
 
 ---
 
-<img src="https://raw.githubusercontent.com/kubero-dev/kubero/main/docs/screenshots/login.png" />
-
----
-
-<img src="https://raw.githubusercontent.com/kubero-dev/kubero/main/docs/screenshots/cli.png" />
+[pipeline list](/assets/screenshots/cli.png)
