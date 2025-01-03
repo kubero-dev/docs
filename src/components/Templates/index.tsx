@@ -136,10 +136,6 @@ function TemplateCardL({name, icon, description}: Template) {
 export default function TemplatesGrid(): JSX.Element {
   return (
     <section className={styles.features}>
-
-      <h3 className="text-center text-2xl font-bold tracking-wide text-neutral-800 dark:text-neutral-400 mt-8">
-        Screenshots
-      </h3>
       <div className="container">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-4">
           {TemplatesList.map((props, idx) => (
