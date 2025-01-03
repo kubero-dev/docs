@@ -1,0 +1,21 @@
+name: 'Update Index'
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '15 10 * * *'
+jobs:
+  update_index:
+    name: 'Update Index'
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: 'Checkout'
+        uses: actions/checkout@master
+      - name: 'update index'
+        run: |
+          wget https://raw.githubusercontent.com/kubero-dev/templates/refs/heads/main/index.json -O src/components/Templates/index.json
+      - name: 'Update Index'
+        uses: stefanzweifel/git-auto-commit-action@master
+        with:
+          commit_message: Update Index
