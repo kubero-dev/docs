@@ -21,12 +21,20 @@ function Feature({title, icon, description, link}: FeatureItem) {
 
 export default function HomepageFeatures(): JSX.Element {
   return (
-    <section className={styles.features}>
-      <div className="container">
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-4">
-          {FeatureList.map((props, idx) => (
-            <Feature key={idx} {...props} />
-          ))}
+    <section>
+      <h3 className="text-center text-2xl font-bold tracking-wide text-neutral-800 dark:text-neutral-400 mt-8">
+        Features
+      </h3>
+      <p className="text-center text-base text-neutral-500 dark:text-neutral-500">
+        Kubero is the most complete PaaS solution with a wide range of Enterprise-grade features. 
+      </p>
+      <div className={styles.features}>
+        <div className="container">
+          <div className="grid grid-cols-1 md:grid-cols-4 gap-4">
+            {FeatureList.map((props, idx) => (
+              <Feature key={idx} {...props} />
+            ))}
+          </div>
         </div>
       </div>
     </section>

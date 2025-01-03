@@ -150,7 +150,7 @@ export const FeatureList: FeatureItem[] = [
     {
       icon: 'ri-chat-1-line',
       title: 'Notifications',
-      link: '',
+      link: '/docs/Usermanual/features#notifications',
       description: (
         <>
           Customizable notification of incidents on the installed apps.
@@ -160,7 +160,7 @@ export const FeatureList: FeatureItem[] = [
     {
       icon: 'ri-heart-pulse-line',
       title: 'Metrics and Monitoring',
-      link: '',
+      link: '/docs/Usermanual/features#metrics-and-monitoring',
       description: (
         <>
           Predefined metrics and monitoring at a glance for the developer.
