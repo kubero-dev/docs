@@ -13,7 +13,7 @@ export const FeatureList: FeatureItem[] = [
       description: (
         <>
           All components are open-source and self-hosted. 
-          No hidden services or paid extra content to unlock
+          No hidden services or paid extra content to unlock!
         </>
       ),
     },
@@ -23,7 +23,7 @@ export const FeatureList: FeatureItem[] = [
       link: '/docs/Usermanual/features#autoscale',
       description: (
         <>
-          Scale horizontally and vertically to fit the size your application really needs
+          Scale horizontally and vertically to fit the size your application really needs.
         </>
       ),
     },
@@ -33,7 +33,17 @@ export const FeatureList: FeatureItem[] = [
       link: '/docs/Usermanual/features#templates',
       description: (
         <>
-          Use templates to quickly spin up well known tools like Wordpress or Kuma.
+          Use templates for one-click-deplyoments of well known tools like Wordpress or Kuma.
+        </>
+      ),
+    },
+    {
+      icon: 'ri-apps-2-ai-line',
+      title: 'High Availability',
+      link: '/docs/Usermanual/features#high-availability',
+      description: (
+        <>
+          All apps and addons are deployed in a high available way to ensure no downtime when deploying or maintaining. 
         </>
       ),
     },
@@ -68,22 +78,22 @@ export const FeatureList: FeatureItem[] = [
       ),
     },
     {
-      icon: 'ri-terminal-box-line',
-      title: 'CLI',
-      link: '/docs/Usermanual/features#cli',
+      icon: 'ri-window-line',
+      title: 'Webconsole',
+      link: '/docs/Usermanual/features#webconsole',
       description: (
         <>
-          Use the CLI to create a Kubernetes cluster, to install Kubero and manage your applications
+          Access your pods and containers directly from the brower with the integrated webconsole
         </>
       ),
     },
     {
       icon: 'ri-git-branch-line',
-      title: 'GitOps',
+      title: 'Push to deploy',
       link: '/docs/Usermanual/features#gitops',
       description: (
         <>
-          Connect your Pipeline with one of the many supported Git repositories (Github, Bitbucket, Gitea, Gitlab, Gogs ... )
+          Connect your Pipeline with your Git repository to build and deploy your application (GitoOps)
         </>
       ),
     },
@@ -93,7 +103,7 @@ export const FeatureList: FeatureItem[] = [
       link: '/docs/Usermanual/features#buildpacks',
       description: (
         <>
-          A wide range of languages and frameworks are supported (PHP, Ruby, Golang, Rust, Nodejs, Deno)
+          Use buildpacks.io, nixpacks or runpacks to build your application without writing a Dockerfile
         </>
       ),
     },
@@ -103,7 +113,7 @@ export const FeatureList: FeatureItem[] = [
       link: '/docs/Usermanual/features#pull-requtst-apps',
       description: (
         <>
-          Deploy an app instance automaticly when a pull request is opened. Or deploy your app with a push to the Master
+          Deploy a new app instance automaticly when a pull request is opened.
         </>
       ),
     },
@@ -128,16 +138,6 @@ export const FeatureList: FeatureItem[] = [
       ),
     },
     {
-      icon: 'ri-image-line',
-      title: 'CI/CD',
-      link: '/docs/Usermanual/features#cicd-pipelines',
-      description: (
-        <>
-          Use the built-in CI/CD pipeline and registry to build your image from a Dockerfile or by Nixpacks.
-        </>
-      ),
-    },
-    {
       icon: 'ri-zzz-line',
       title: 'Sleeping container',
       link: '/docs/Usermanual/features#sleeping-contianers',
@@ -148,12 +148,12 @@ export const FeatureList: FeatureItem[] = [
       ),
     },
     {
-      icon: 'ri-window-line',
-      title: 'Webconsole',
-      link: '/docs/Usermanual/features#webconsole',
+      icon: 'ri-terminal-box-line',
+      title: 'CLI',
+      link: '/docs/Usermanual/features#cli',
       description: (
         <>
-          A console that can be used via the browser to maintain and debug the applications.
+          Use the CLI to create a Kubernetes cluster, to install Kubero and manage your applications and pipelines
         </>
       ),
     },

@@ -61,8 +61,8 @@ Using one of Kubero’s templates offers significant benefits by simplifying and
 ## Oauth2 Authentication
 Kubero supports OAuth2 authentication, a secure and standardized protocol for user authentication and authorization. OAuth2 enables users to log in using their existing credentials from providers like Google, GitHub, or Microsoft, enhancing security and convenience.
 
-## CI/CD Pipelines
-Kubero’s CI/CD pipelines feature automates the build, test, and deployment process, ensuring that code changes are quickly and reliably delivered to production. By defining a series of stages and tasks, developers can create efficient workflows that validate changes, run tests, and deploy applications automatically.
+## High Availability
+Kubero ensures high availability by distributing workloads across multiple nodes, preventing single points of failure. This redundancy ensures that applications remain accessible even if individual nodes or components fail, maintaining uptime and reliability.
 
 ## Sleeping contianers
 The "sleeping containers" feature in Kubero offers several key benefits. It helps optimize resource usage by turning off containers when they are not in use, such as during periods of low traffic or inactivity. This reduces unnecessary resource consumption, lowering infrastructure costs.
