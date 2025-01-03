@@ -18,22 +18,22 @@ export const FeatureList: FeatureItem[] = [
       ),
     },
     {
-      icon: 'ri-hammer-line',
-      title: 'Buildpacks',
-      link: '/docs/Usermanual/features#buildpacks',
+      icon: 'ri-line-chart-line',
+      title: 'Autoscale',
+      link: '/docs/Usermanual/features#autoscale',
       description: (
         <>
-          A wide range of languages and frameworks are supported (PHP, Ruby, Golang, Rust, Nodejs, Deno)
+          Scale horizontally and vertically to fit the size your application really needs
         </>
       ),
     },
     {
-      icon: 'ri-git-pull-request-line',
-      title: 'Pull request Apps',
-      link: '/docs/Usermanual/features#pull-requtst-apps',
+      icon: 'ri-paint-brush-line',
+      title: '140+ Templates',
+      link: '/docs/Usermanual/features#templates',
       description: (
         <>
-          Deploy an app instance automaticly when a pull request is opened. Or deploy your app with a push to the Master
+          Use templates to quickly spin up well known tools like Wordpress or Kuma.
         </>
       ),
     },
@@ -48,22 +48,22 @@ export const FeatureList: FeatureItem[] = [
       ),
     },
     {
+      icon: 'ri-heart-pulse-line',
+      title: 'Metrics and Monitoring',
+      link: '/docs/Usermanual/features#metrics-and-monitoring',
+      description: (
+        <>
+          Predefined metrics and monitoring at a glance for the developer.
+        </>
+      ),
+    },
+    {
       icon: 'ri-time-line',
       title: 'Cronjobs',
       link: '/docs/Usermanual/features#cronjobs',
       description: (
         <>
           Schedule periodically running jobs to run at fixed times, dates, or intervals
-        </>
-      ),
-    },
-    {
-      icon: 'ri-line-chart-line',
-      title: 'Autoscale',
-      link: '/docs/Usermanual/features#autoscale',
-      description: (
-        <>
-          Scale horizontally and vertically to fit the size your application really needs
         </>
       ),
     },
@@ -88,6 +88,26 @@ export const FeatureList: FeatureItem[] = [
       ),
     },
     {
+      icon: 'ri-hammer-line',
+      title: 'Buildpacks',
+      link: '/docs/Usermanual/features#buildpacks',
+      description: (
+        <>
+          A wide range of languages and frameworks are supported (PHP, Ruby, Golang, Rust, Nodejs, Deno)
+        </>
+      ),
+    },
+    {
+      icon: 'ri-git-pull-request-line',
+      title: 'Pull request Apps',
+      link: '/docs/Usermanual/features#pull-requtst-apps',
+      description: (
+        <>
+          Deploy an app instance automaticly when a pull request is opened. Or deploy your app with a push to the Master
+        </>
+      ),
+    },
+    {
       icon: 'ri-bug-line',
       title: 'Vulnerability scans',
       link: '/docs/Usermanual/features#vulnerability-scans',
@@ -98,18 +118,8 @@ export const FeatureList: FeatureItem[] = [
       ),
     },
     {
-      icon: 'ri-paint-brush-line',
-      title: '130+ Templates',
-      link: '/docs/Usermanual/features#templates',
-      description: (
-        <>
-          Use templates to quickly spin up well known tools like Wordpress or Kuma.
-        </>
-      ),
-    },
-    {
       icon: 'ri-lock-line',
-      title: 'SSO Authentication',
+      title: 'Oauth2 support',
       link: '/docs/Usermanual/features#oauth2-authentication',
       description: (
         <>
@@ -154,16 +164,6 @@ export const FeatureList: FeatureItem[] = [
       description: (
         <>
           Customizable notification of incidents on the installed apps.
-        </>
-      ),
-    },
-    {
-      icon: 'ri-heart-pulse-line',
-      title: 'Metrics and Monitoring',
-      link: '/docs/Usermanual/features#metrics-and-monitoring',
-      description: (
-        <>
-          Predefined metrics and monitoring at a glance for the developer.
         </>
       ),
     },
