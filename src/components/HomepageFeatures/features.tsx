@@ -93,7 +93,7 @@ export const FeatureList: FeatureItem[] = [
       link: '/docs/Usermanual/features#gitops',
       description: (
         <>
-          Connect your Pipeline with your Git repository to build and deploy your application (GitoOps)
+          Connect your Pipeline with your Git repository to build and deploy your application (GitOps)
         </>
       ),
     },

@@ -11,7 +11,10 @@ import styles from './index.module.css';
 
 function HomepageHeader() {
   const {siteConfig} = useDocusaurusContext();
-  const title = "PaaS for Kubernetes";
+  const title = "Heroku alternative for Kubernetes";
+  // const title = "Open-source Solution for Kubernetes Deployments";
+  // const title = "PaaS for Kubernetes";
+  
   return (
     <header className={clsx('hero hero--primary', styles.heroBanner)}>
       <div className="container">
