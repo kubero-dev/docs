@@ -5,8 +5,6 @@ authors: [gianni]
 tags: [kubero, paas, general]
 ---
 
-
-
 In the evolving landscape of Platform as a Service (PaaS) solutions, developers seek platforms that streamline application deployment and management. Coolify and Kubero are both open-source, self-hosted PaaS platforms catering to this need. While both offer robust features, Kubero distinguishes itself with several advanced capabilities that provide a competitive edge.
 
 ## Coolify
@@ -31,6 +29,70 @@ Security Measures: With integrated vulnerability scanning using Trivy, Kubero pr
 
 ### Enterprise grade Add-ons
 Both Coolify and Kubero provide a variety of addons, allowing developers to integrate essential services such as databases and caching systems. However, Kubero goes a step further by deploying these addons as highly available clusters, ensuring redundancy and resilience. For example, services like Redis-Cluster, PostgreSQL, and Elasticsearch can be deployed with built-in high availability, making Kubero a more reliable choice for mission-critical applications. In contrast, Coolify's one-click service deployments are limited to standalone instances, which may not meet the demands of enterprise-level applications.
+
+## Community and Ecosystem
+Coolify boasts a significantly larger and more active community, offering developers access to a wealth of shared knowledge, quick responses to questions, and collaborative support. This vibrant community can be a valuable resource, especially for smaller teams or individual developers.
+
+However, Kubero leverages the vast and well-established Kubernetes ecosystem, which provides unparalleled flexibility, scalability, and a wealth of tools, plugins, and integrations. By being Kubernetes-native, Kubero allows developers to tap into a broader ecosystem of expertise and innovation that aligns with industry standards for cloud-native development. While Coolify’s community is an advantage, Kubero’s alignment with Kubernetes ensures it benefits from a much larger and continually evolving ecosystem.
+
+
+|                       | Kubero | Coolify | 
+|-----------------------|:------:|:-------:|
+| User Interface        | ✅     | ✅      |
+| CLI                   | ❌     | ✅      |
+| API                   | ✅     | ✅      |
+| Multi user            | ✅     | ✅      |
+| Teams                 | ❌     | ✅      |
+| SSO Oauth2            | ✅     | ✅      |
+| Role Based Permissions| ❌     | ✅      |
+| Vertical Scaling      | ✅     | ❌      |
+| Horizontal Scaling    | ✅     | ❌      |
+| Autoscaling           | ✅     | ❌      |
+| Sleeping Dynos/Pods   | ✅     | ❌      |
+| Cronjobs              | ✅     | ✅      |
+| Dark/White Mode       | ✅     | ❌      |
+| Environment variables | ✅     | ✅      |
+| Application Metrics   | ✅     | ❌      |
+| Basic Auth            | ✅     | ❌      |
+| Writable Volumes      | ✅     | ✅      |
+| DB-Backups            | ❌     | ✅      |
+| Free SSL Issuing      | ✅     | ✅      |
+| Web Console Access    | ✅     | ✅      |
+| Web Logs Access       | ✅     |         |
+| Push to Deploy        | ✅     | ✅      |
+| Pull-Request-Apps     | ✅     | ✅      |
+| Run Container Images  | ✅     | ✅      |
+| CI/CD                 | ✅     | ✅      |
+| Buildpacks            | ✅     | ✅      |
+| Dockerfiles           | ✅     | ✅      |
+| Nixpacks              | ✅     | ✅      |
+| Runpacks              | ✅     | ❌      |
+| Activity Logs (Audit) | ✅     | ✅      |
+| Realtime App Logs     | ✅     | ✅      |
+| Historic Metrics      | ✅     | ✅      |
+| Webhooks              | ✅     | ✅      |
+| Notification          | ✅     | ✅      |
+| Vulnerability scans   | ✅     | ❌      |
+| Templates (16.01.25)  | 155    | 216     |
+| GitOps with Github    | ✅     | ✅      |
+| GitOps with GitLab    | ✅     | ✅      |
+| GitOps with Bitbucket | ✅     | ✅      |
+| GitOps with Gitea     | ✅     | ✅      |
+| GitOps with Gogs      | ✅     | ✅      |
+| Add-On PostgreSQL     | ✅     | ✅      |
+| Add-On MySQL          | ✅     | ✅      |
+| Add-On RabbitMQ       | ✅     | ❌      |
+| Add-On MongoDB        | ✅     | ✅      |
+| Add-On ElasticSearch  | ✅     | ❌      |
+| Add-On Memcached      | ✅     | ❌      |
+| Add-On Kafka          | ✅     | ❌      |
+| Add-On CouchDB        | ✅     | ❌      |
+| Add-On CockroachDB    | ✅     | ❌      |
+| Add-On Clickhouse     | ✅     | ✅      |
+| Add-On DragonFly      | ❌     | ✅      |
+| Add-On MariaDB        | ❌     | ✅      |
+| Add-On KeyDB          | ❌     | ✅      |
+
 
 ## Conclusion
 Coolify and Kubero are both similar open-source PaaS solutions. With its seamless Kubernetes integration, robust CI/CD pipelines, advanced autoscaling, enhanced security through vulnerability scanning, and support for highly available clusters, Kubero delivers the scalability, reliability, and flexibility modern developers need. Its ability to provide detailed application metrics and deploy high-availability addons ensures a superior experience for teams handling complex or mission-critical projects. For those seeking a future-proof platform tailored to enterprise-grade needs, Kubero might be the better fit.
