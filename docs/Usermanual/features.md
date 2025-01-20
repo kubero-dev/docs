@@ -10,7 +10,7 @@ Kubero’s open-source nature provides transparency, cost-effectiveness, and fle
 The collaborative model fosters innovation and security, as the code is continuously audited and improved. Open-source ensures sustainability, allowing the community to maintain and evolve the platform over time. Kubero’s transparency, adaptability, and community-driven approach make it a reliable and ethical choice for application deployment.
 
 ## Buildpacks
-Kubero supports buildpacks, a cloud-native application packaging format that automates the build and deployment process. Buildpacks are a standardized way to package applications, providing a consistent and efficient workflow for developers. They automatically detect, compile, and configure applications, simplifying the deployment process and reducing errors.
+Kubero supports dockerfiles, [nixpacks](https://nixpacks.com/docs/getting-started) and [buildpacks.io](https://buildpacks.io/), a cloud-native application packaging format that automates the build and deployment process. Buildpacks are a standardized way to package applications, providing a consistent and efficient workflow for developers. They automatically detect, compile, and configure applications, simplifying the deployment process and reducing errors.
 
 Kubero’s buildpack support streamlines the development lifecycle, enabling developers to focus on writing code rather than managing dependencies and configurations. By automating the build process, buildpacks enhance productivity, reduce complexity, and ensure consistency across environments. Kubero’s buildpack integration accelerates application development, making it easier to create, deploy, and scale applications.
 
@@ -43,7 +43,7 @@ The CLI also supports remote management, enabling users to control their deploym
 
 In essence, the CLI in Kubero enhances productivity, supports automation, and offers developers the flexibility and control they need to manage their Kubernetes deployments effectively.
 
-## GitOps
+## Push to Deploy
 GitOps in Kubero streamlines application deployment by using Git repositories as the single source of truth. When changes are pushed, Kubero automatically updates the Kubernetes environment, ensuring consistency and reducing manual errors.
 
 This approach enhances collaboration, tracks changes for auditing, and ensures environments stay in sync with the repository. With its self-healing capability, GitOps boosts reliability and simplifies modern DevOps workflows.
@@ -71,11 +71,23 @@ When the container is needed again, Kubero can quickly restart it, often within 
 
 Overall, "sleeping containers" help improve cost efficiency, reduce resource waste, and maintain a responsive system.
 
+## Basic Auth
+Kubero supports Basic Authentication, a simple and widely used method for securing web applications. With Basic Auth, users can log in using a username and password, providing a straightforward and familiar authentication mechanism.
+
+![Basic Auth](./features/basic-auth.png)
+
+## SSL Certificates
+Having cert-manager issue Let's Encrypt SSL certificates in Kubero streamlines the process of securing applications with HTTPS. This integration automates the entire lifecycle of SSL certificates, from issuance to renewal, eliminating the need for manual intervention and reducing the risk of expired certificates. Let’s Encrypt provides trusted SSL certificates for free, ensuring secure communication between applications and users while avoiding the costs of commercial certificates.
+
 ## Webconsole
 Kubero's web console is a browser-based interface that simplifies managing applications and Kubernetes clusters. It allows users to directly access a pod and perform administrative tasks without using the kubectl.
+
+![Webconsole](./features/webconsole.png)
 
 ## Notifications
 Kubero's notification feature keeps users informed about the status of their applications by sending alerts for incidents, errors, or significant events. This ensures that developers are promptly notified of issues, such as deployment failures, performance degradation, or service outages.
 
-## Metrics and Monitoring
+## Application Metrics and Monitoring
 Kubero provides metrics and monitoring capabilities to help users track the performance and health of their applications. By collecting data on resource usage, response times, and other key metrics, users can gain insights into application behavior and identify potential issues.
+
+![Application Metrics](./features/appmetrics.png)

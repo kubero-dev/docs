@@ -90,7 +90,7 @@ export const FeatureList: FeatureItem[] = [
     {
       icon: 'ri-git-branch-line',
       title: 'Push to Deploy',
-      link: '/docs/Usermanual/features#gitops',
+      link: '/docs/Usermanual/features#push-to-deploy',
       description: (
         <>
           Connect your Pipeline with your Git repository to build and deploy your application (GitOps).
@@ -130,7 +130,7 @@ export const FeatureList: FeatureItem[] = [
     {
       icon: 'ri-lock-line',
       title: 'Basic Authentication',
-      link: '/docs/Usermanual/features#oauth2-authentication',
+      link: '/docs/Usermanual/features#basic-auth',
       description: (
         <>
           Protect your applications with basic authentication and manage users and passwords.
@@ -140,7 +140,7 @@ export const FeatureList: FeatureItem[] = [
     {
       icon: 'ri-shield-check-line',
       title: 'SSL Certs',
-      link: '/docs/Usermanual/features#oauth2-authentication',
+      link: '/docs/Usermanual/features#ssl-certificates',
       description: (
         <>
           Issue SSL certificates for your applications with cert-manager and Let's Encrypt.

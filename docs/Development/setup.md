@@ -14,7 +14,7 @@ Fork the repository to your own GitHub account.
 git clone git@github.com:your-github-account/kubero.git
 ```
 
-## export your kubernetes config 
+## Export your kubernetes config 
 In case you are using a local cluster like kind, you can export the kubeconfig to the local directory.
 ```bash
 kind get kubeconfig --name kubero-001 > ./kubeconfig
