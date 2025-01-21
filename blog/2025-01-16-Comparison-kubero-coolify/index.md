@@ -39,7 +39,7 @@ However, Kubero leverages the vast and well-established Kubernetes ecosystem, wh
 |                       | Kubero | Coolify | 
 |-----------------------|:------:|:-------:|
 | User Interface        | ✅     | ✅      |
-| CLI                   | ❌     | ✅      |
+| CLI                   | ✅     | ✅      |
 | API                   | ✅     | ✅      |
 | Multi user            | ✅     | ✅      |
 | Teams                 | ❌     | ✅      |
@@ -58,7 +58,7 @@ However, Kubero leverages the vast and well-established Kubernetes ecosystem, wh
 | DB-Backups            | ❌     | ✅      |
 | Free SSL Issuing      | ✅     | ✅      |
 | Web Console Access    | ✅     | ✅      |
-| Web Logs Access       | ✅     |         |
+| Web Logs Access       | ✅     | ❌      |
 | Push to Deploy        | ✅     | ✅      |
 | Pull-Request-Apps     | ✅     | ✅      |
 | Run Container Images  | ✅     | ✅      |
