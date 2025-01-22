@@ -37,11 +37,15 @@ The Installation of the Ingress Controller depends on your Kubernetes provider. 
 <Tabs groupId="install-strategy">
   <TabItem value="kubectl" label="kubectl">
 
+      ```bash
       kubectl apply -f https://raw.githubusercontent.com/kubernetes/ingress-nginx/main/deploy/static/provider/kind/deploy.yaml
+      ```
   </TabItem>
   <TabItem value="cli" label="Kubero CLI">
-
+      
+      ```bash
       kubero install -c ingress
+      ```
   </TabItem>
 </Tabs>
 
@@ -53,11 +57,15 @@ The Metrics Server is required for the Kubero UI to display CPU and Memory usage
 <Tabs groupId="install-strategy">
   <TabItem value="kubectl" label="kubectl">
 
+      ```bash
       kubectl apply -f https://github.com/kubernetes-sigs/metrics-server/releases/latest/download/components.yaml
+      ```
   </TabItem>
   <TabItem value="cli" label="Kubero CLI">
 
+      ```bash
       kubero install -c metrics
+      ```
   </TabItem>
 </Tabs>
 
@@ -66,11 +74,15 @@ The Certmanager is requirede to generate and manage TLS certificates.
 <Tabs groupId="install-strategy">
   <TabItem value="kubectl" label="kubectl">
 
+      ```bash
       kubectl apply -f https://operatorhub.io/install/cert-manager.yaml
+      ```
   </TabItem>
   <TabItem value="cli" label="Kubero CLI">
 
+      ```bash
       kubero install -c certmanager
+      ```
   </TabItem>
 </Tabs>
 
@@ -81,11 +93,15 @@ In order to monitor your app with longterm statistics (metrics section), you wil
 <Tabs groupId="install-strategy">
   <TabItem value="kubectl" label="kubectl">
 
+      ```bash
       kubectl apply -f https://raw.githubusercontent.com/kubero-dev/kubero-operator/main/config/samples/application_v1alpha1_kuberoprometheus.yaml
+      ```
   </TabItem>
   <TabItem value="cli" label="Kubero CLI">
 
+      ```bash
       kubero install -c monitoring
+      ```
   </TabItem>
 </Tabs>
 
@@ -105,21 +121,25 @@ There are two ways to install Kubero:
 1) Minimal installation
 2) Full installation with OLM (Operator Lifecycle Manager)
 
-### Option 1) Minimal installation
+### Option 1) Default installation (recommended)
 
 The minimal installation will install the Kubero Operator and the required CRDs. The Kubero UI will be installed on a later step.
 <Tabs groupId="install-strategy">
   <TabItem value="kubectl" label="kubectl">
 
+      ```bash
       kubectl apply -f https://raw.githubusercontent.com/kubero-dev/kubero-operator/main/deploy/operator.yaml
+      ```
   </TabItem>
   <TabItem value="cli" label="Kubero CLI">
 
+      ```bash
       kubero install -c kubero-operator
+      ```
   </TabItem>
 </Tabs>
 
-### Option 2) Full installation with OLM
+### Option 2) Installation with OLM
 The OLM installation will install the Operator Lifecycle Manager and the Kubero Operator. The Kubero UI will be installed on a later step.
 
 **OLM (Operator Lifecycle Manager)**
