@@ -16,11 +16,13 @@ To upgrade the Kubero operator to the latest version, simply rerun the installat
 
 <Tabs groupId="install-strategy">
   <TabItem value="kubectl" label="kubectl">
+  
       ```bash
       kubectl apply -f https://raw.githubusercontent.com/kubero-dev/kubero-operator/main/deploy/operator.yaml
       ```
   </TabItem>
   <TabItem value="cli" label="Kubero CLI">
+
       ```bash
       kubero install -c kubero-operator
       ```
@@ -45,6 +47,7 @@ Deleting the Kubero Operator will delete all Kubero CRDs and all Kubero resource
 
 <Tabs groupId="install-strategy">
   <TabItem value="kubectl" label="kubectl">
+
       ```bash
       kubectl delete -f https://raw.githubusercontent.com/kubero-dev/kubero-operator/main/deploy/operator.yaml
       ```

@@ -48,7 +48,7 @@ Point your domain to the IP from INTERNAL-IP field
       ```
   </TabItem>
   <TabItem value="cli" label="Kubero CLI">
-      
+
       ```bash
       kubero install -c kubero-operator
       ```
