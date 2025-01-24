@@ -1,7 +1,8 @@
-name: 'stargazers'
+name: 'Mail on Star'
 on:
   workflow_dispatch:
-  types: [started]
+  watch:
+    types: [started]
 jobs:
   stargazer:
     name: 'stargazers'
