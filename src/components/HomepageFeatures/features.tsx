@@ -23,7 +23,7 @@ export const FeatureList: FeatureItem[] = [
       link: '/docs/Usermanual/features#autoscale',
       description: (
         <>
-          Scale horizontally and vertically to fit the size your application really needs.
+          Automatically scales applications horizontally to meet varying demands.
         </>
       ),
     },
@@ -33,13 +33,13 @@ export const FeatureList: FeatureItem[] = [
       link: '/docs/Usermanual/features#high-availability',
       description: (
         <>
-          All apps and addons are deployed in a high available way to ensure no downtime when deploying or maintaining. 
+          Ensures applications and add-ons are deployed in a highly available manner, minimizing downtime during deployments and maintenance.
         </>
       ),
     },
     {
       icon: 'ri-paint-brush-line',
-      title: '140+ Templates',
+      title: '160+ Templates',
       link: '/docs/Usermanual/features#templates',
       description: (
         <>
@@ -73,17 +73,17 @@ export const FeatureList: FeatureItem[] = [
       link: '/docs/Usermanual/features#cronjobs',
       description: (
         <>
-          Schedule periodically running jobs to run at fixed times, dates, or intervals.
+          Allows scheduling of periodic tasks to run at fixed times, dates, or intervals.
         </>
       ),
     },
     {
       icon: 'ri-window-line',
-      title: 'Webconsole',
+      title: 'Web Console',
       link: '/docs/Usermanual/features#webconsole',
       description: (
         <>
-          Access your pods and containers directly from the brower with the integrated webconsole.
+          Enables direct access to pods and containers from the browser through an integrated web console. 
         </>
       ),
     },
@@ -93,7 +93,7 @@ export const FeatureList: FeatureItem[] = [
       link: '/docs/Usermanual/features#push-to-deploy',
       description: (
         <>
-          Connect your Pipeline with your Git repository to build and deploy your application (GitOps).
+          Integrates with Git repositories to build and deploy applications automatically upon code changes. (GitOps).
         </>
       ),
     },
@@ -149,11 +149,11 @@ export const FeatureList: FeatureItem[] = [
     },
     {
       icon: 'ri-login-circle-line',
-      title: 'Oauth2 Support',
+      title: 'Authentication',
       link: '/docs/Usermanual/features#oauth2-authentication',
       description: (
         <>
-          Choose from built-in, github or Oauth2 authentication method.
+          Offers built-in authentication methods, including GitHub and OAuth2.
         </>
       ),
     },
@@ -193,7 +193,7 @@ export const FeatureList: FeatureItem[] = [
       link: '/docs/Usermanual/features#cli',
       description: (
         <>
-          Deploy Kubero's Pipelines and Applications with your own CI/CD pipeline.
+          Deploy Kubero's Pipelines and Applications with your own CI/CD pipeline. (ArgoCD, Github Actions, ...)
         </>
       ),
     },
@@ -203,7 +203,7 @@ export const FeatureList: FeatureItem[] = [
       link: '/docs/Usermanual/features#notifications',
       description: (
         <>
-          Customizable notification of incidents on the installed apps.
+          Configure customizable notifications for incidents on installed applications. 
         </>
       ),
     },

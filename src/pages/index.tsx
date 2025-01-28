@@ -35,9 +35,14 @@ function HomepageHeader() {
         <h2 className="hero__subtitle text-white font-light">{siteConfig.tagline}</h2>
         <div className={styles.buttons}>
           <Link
-            className="button button--secondary button--lg"
+            className="button button--secondary button--lg mx-2 border-0"
             href="https://demo.kubero.dev">
             Demo
+          </Link>
+          <Link
+            className="button button--secondary button--lg mx-2 bg-slate-400 border-0"
+            href="https://github.com/kubero-dev/kubero">
+            Github
           </Link>
         </div>
         <div className={styles.buttons}>
