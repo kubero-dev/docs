@@ -16,7 +16,17 @@ export const images: CustomImage[] = [
     caption: "Aplication view",
   },
   {
-    src: "/assets/screenshots/pipeline-list.png",
+    src: "/assets/screenshots/pipeline-overview.png",
+    original: "https://c2.staticflickr.com/9/8356/28897120681_3b2c0f43e0_b.jpg",
+    width: 1179,
+    height: 1181,
+    tags: [
+      { value: "ui", title: "UI" },
+    ],
+    caption: "Kubero Pipeline overview",
+  },
+  {
+    src: "/assets/screenshots/pipeline-new.png",
     original: "https://c2.staticflickr.com/9/8356/28897120681_3b2c0f43e0_b.jpg",
     width: 1179,
     height: 1181,
