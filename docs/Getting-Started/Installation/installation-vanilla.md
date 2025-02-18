@@ -70,7 +70,7 @@ The Metrics Server is required for the Kubero UI to display CPU and Memory usage
 </Tabs>
 
 ### Cert Manager
-The Certmanager is requirede to generate and manage TLS certificates.
+The Certmanager is required to generate and manage TLS certificates.
 <Tabs groupId="install-strategy">
   <TabItem value="kubectl" label="kubectl">
 
