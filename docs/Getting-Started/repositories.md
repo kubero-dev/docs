@@ -37,6 +37,14 @@ GitHub offers two types of PATs: *"fine-grained (beta)"* and *"Tokens (classic)"
 
 2. From the Settings menu, select Applications.
 
-In the Generate New Token section, enter a name for the token, then click the Generate Token button.
+In the Generate New Token section:
+1. Enter a name for the token
+2. Select **All (public, private, and limited)** repository access
+3. Select permissions
+   - **admin Read and Write**
+   - **repository Read and Write**
+   - **user Read**
+3. Then click the Generate Token button.
 
 ![Alt text](./img/repositories_gitea_tokens.png)
+![Alt text](./img/repositories_gitea_permissions.png)
