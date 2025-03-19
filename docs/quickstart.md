@@ -15,7 +15,7 @@ Currently the CLI has integrations the following Kubernetes providers:
 - digitalocean
 - kind (local)
 
-But it is possible to install Kubero on every Kubernetes cluster greater than 1.19. A specific installation guide for your Kubernetes distribution can be found [here](/Installation).
+But it is possible to install Kubero on every Kubernetes cluster. A specific installation guide for your Kubernetes distribution can be found [here](/docs/Getting-Started/Installation/installation-vanilla).
 
 # Quickstart
 1) Download and unpack the <a href="https://github.com/kubero-dev/kubero-cli/releases/latest">Kubero CLI</a> binary for your operating system
