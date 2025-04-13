@@ -1,6 +1,6 @@
 ---
 slug: kubero-release-v3
-title: Kubero v3 Released – Now Powered by NestJS
+title: Kubero v3 – Now Powered by NestJS 🚀
 authors: [gianni]
 tags: [kubero, release]
 ---
