@@ -44,7 +44,6 @@ The frontend remains unchanged in this release. Kubero's UI is still the same cl
 
 We're continuing to maintain and refine the frontend, but our focus in v3 was on strengthening the backend foundation.
 
----
 
 ## Upgrade Notes
 
