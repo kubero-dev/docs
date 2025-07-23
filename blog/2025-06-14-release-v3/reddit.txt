@@ -6,30 +6,36 @@ Hey everyone,
 
 I'm excited to announce that Kubero v3 is officially out! 🎉
 
-This release comes with a major internal overhaul — the entire backend has been refactored and migrated from Express.js to NestJS.
+I'm the maintainer of Kubero and today I've published version 3.0.0 of Kubero. This release comes with a major internal overhaul — the entire backend has been refactored and migrated from Express.js to NestJS. I worked about 6 Month on it and about 40K of lines have been changed. 
+The frontend has now built in a Teams- and Usermanagement. So you can create teams which might share or not share projects. 
+Role base Access has been implemented. So every User has a specific role with dedicated permissions.
 
-🔥 What is Kubero?
-Kubero is a self-hosted PaaS alternative to Heroku, Vercel, and Coolify running on any Kubernetes cluster. The UI makes it simple to deploy your code with GitOps workflows and simplifies the deployment of any containerized apps on Kubernetes.
 
-🚀 What’s new in v3?
-Backend rebuilt in NestJS – migrated from Express for better structure and scalability.
+#🔥 What is Kubero?
+Kubero is a self-hosted PaaS alternative to Heroku, Vercel, and Coolify running on any Kubernetes cluster.  The UI makes it simple to deploy your code with GitOps workflows and simplifies the deployment of any containerized apps on Kubernetes. Imagine a simplified argoCD that requires no Kubernetes and Helm-Chart knowledge to deploy your apps. It is 100% open source and self-hosted.
 
+# 🚀 What’s new in v3?
+- User Management with roles and API-Tokens
+- Team Views to manage multiple teams and projects
+- RBAC Access with fine grained permissions 
+- Fully translated to 5 Languages (English, German, Japanese, Chinese, Portuguese, ... more on request)
 - JWT authentication – replacing session-based auth for better security
-- API redesigned – ubnified and cleaner endpoints, https://demo.kubero.dev/api/docs
+- API redesigned – unified and cleaner endpoints, https://demo.kubero.dev/api/docs
 - Improved logging & error handling
-- 86% test coverage with Jest
-- No changes to the frontend – UI remains stable and familiar (for now)
+- 86% test coverage with more than 500 Jest tests
 
-This release is mostly about laying a strong foundation for upcoming features like role-based access and team support.
-
-📦 Upgrade Notes
-- In-place upgrade — just update the tag to v3.0.0. All features and configurations are compatible with v2
+# 📦 Upgrade Notes
+- In-place upgrade — just update the tag to v3.0.0. All features and configurations are compatible with v2. Existing user will be migrated.
 - CLI users: update to v3.0.0
-- If you’re using the API directly, note the new paths in the docs above
-
-As always: Kubero is 100% open-source and community-driven. CNCF donation is still on our roadmap to help secure its future.
+- If you’re using the API directly, note the new paths in api docs noted above
 
 Would love your feedback, questions, or suggestions! 🙌
+
+# 🛠️ Future Plans
+- Crossplane integration for managing cloud resources
+- Built in telemetry for better application insights
+- Improve Monitoring for Addons (See how many queries your database has.)
+- Self-registration for users (Optional)
 
 🎩 Links
 - Repository: https://github.com/kubero-dev/kubero

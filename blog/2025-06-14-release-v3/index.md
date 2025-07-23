@@ -32,17 +32,17 @@ Kubero was initially built as a Proof of Concept during Heroku's major outage in
   The NestJS ecosystem, with its integration libraries and support, helps us provide powerful new features faster and more efficiently.
 
 - **More Tests = More Stability**  
-  We’ve added extensive Jest tests — the new codebase has **86% test coverage**, ensuring a more stable and reliable experience.
+  We’ve added extensive Jest tests (more than 500) — the new codebase has **~85% test coverage**, ensuring a more stable and reliable experience.
 
 This update lays the groundwork for upcoming features like **role-based access control** and **team structures**.
 
 ## What about the frontend?
-The frontend remains unchanged in this release. Kubero's UI is still the same clean, intuitive interface you're familiar with from v2. This means:
+The frontend has been slightly modernised, while keeping Kubero's UI as clean and simple as possible, with the intuitive interface you're familiar with from v2. This means:
 
 - No changes are required to your workflows or usage patterns.
 - Your existing deployments, dashboards, and settings will look and behave the same.
 
-We're continuing to maintain and refine the frontend, but our focus in v3 was on strengthening the backend foundation.
+There is now a all new account section to manage users, teams, roles and its permiossions, and tokens. Every user has his own profile 
 
 
 ## Upgrade Notes
