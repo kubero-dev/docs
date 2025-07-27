@@ -1,5 +1,5 @@
 
-Kubero v3 Releases: Now Powered by NestJS 🚀
+Kubero v3 Released: Now Powered by NestJS 🚀
 Kubero: The self-hosted Heroku/Coolify alternative, is released in version v3
 
 Hey everyone,
@@ -13,6 +13,16 @@ Role base Access has been implemented. So every User has a specific role with de
 
 #🔥 What is Kubero?
 Kubero is a self-hosted PaaS alternative to Heroku, Vercel, and Coolify running on any Kubernetes cluster.  The UI makes it simple to deploy your code with GitOps workflows and simplifies the deployment of any containerized apps on Kubernetes. Imagine a simplified argoCD that requires no Kubernetes and Helm-Chart knowledge to deploy your apps. It is 100% open source and self-hosted.
+
+Some Features:
+- 170+ Templates
+- Running high available on Kubernetes
+- Web Console and Logs
+- SSL handling
+- Vulnerability Scans
+- GitOps Deployments
+...
+
 
 # 🚀 What’s new in v3?
 - User Management with roles and API-Tokens
@@ -34,7 +44,7 @@ Would love your feedback, questions, or suggestions! 🙌
 # 🛠️ Future Plans
 - Crossplane integration for managing cloud resources
 - Built in telemetry for better application insights
-- Improve Monitoring for Addons (See how many queries your database has.)
+- Improve Monitoring for Addons (See how many queries your database has)
 - Self-registration for users (Optional)
 
 🎩 Links

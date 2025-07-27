@@ -22,37 +22,44 @@ Kubero was initially built as a Proof of Concept during Heroku's major outage in
 - **Improved Security**  
   Kubero now uses **JWT tokens** for authentication, replacing the older session-based method. This improves both security and maintainability.
 
-- **Simplified API**  
-  The API has been redesigned to be more intuitive, with clearer endpoints and improved documentation.
-
 - **Better Logging and Error Handling**  
   NestJS provides enhanced support for logging and centralized error handling out of the box.
 
 - **Thriving Ecosystem**  
   The NestJS ecosystem, with its integration libraries and support, helps us provide powerful new features faster and more efficiently.
 
+## Whats new in V3
+
+- **Built in User management**  
+  Kubero now includes a user management system with roles and API tokens, allowing you to control access and permissions more effectively.
+
+- **Team Views**  
+  You can now manage multiple teams and projects within Kubero, making it easier to collaborate and share resources.
+
+- **Multi-language Support**  
+  Kubero is now fully translated into multiple languages, including English, German, Japanese, Chinese, and Portuguese. More languages can be added upon request.
+
+- **Simplified API**  
+  The API has been redesigned to be more intuitive, with clearer endpoints and improved documentation.
+
 - **More Tests = More Stability**  
   We’ve added extensive Jest tests (more than 500) — the new codebase has **~85% test coverage**, ensuring a more stable and reliable experience.
-
-This update lays the groundwork for upcoming features like **role-based access control** and **team structures**.
 
 ## What about the frontend?
 The frontend has been slightly modernised, while keeping Kubero's UI as clean and simple as possible, with the intuitive interface you're familiar with from v2. This means:
 
 - No changes are required to your workflows or usage patterns.
 - Your existing deployments, dashboards, and settings will look and behave the same.
-
-There is now a all new account section to manage users, teams, roles and its permiossions, and tokens. Every user has his own profile 
-
+- All Templates, Addons, and features from v2 are fully compatible.
 
 ## Upgrade Notes
 
-- **In-place upgrade**: Simply update the tag — all features and configurations are compatible.
+- **In-place upgrade**: Simply update the Kubero UI container tag - Thats it!
 - If you're using the CLI, make sure to update to version `3.0.0`.
 - If you're integrating Kubero’s API into your own toolchain, note that the API paths have changed. See the [API documentation](https://demo.kubero.dev/api/docs) for details.
 
 ---
 
-Kubero remains proudly **open-source and community-driven**. We’re still planning to donate the project to the CNCF to ensure its long-term sustainability.
+Kubero remains proudly **open-source and community-driven**. 
 
 Would love to hear your feedback, questions, or thoughts. Thanks for being part of the journey!
