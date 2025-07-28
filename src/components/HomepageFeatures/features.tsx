@@ -149,7 +149,7 @@ export const FeatureList: FeatureItem[] = [
     },
     {
       icon: 'ri-login-circle-line',
-      title: 'Authentication',
+      title: 'SSO Authentication',
       link: '/docs/Usermanual/features#oauth2-authentication',
       description: (
         <>
