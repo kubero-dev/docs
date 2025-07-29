@@ -13,7 +13,8 @@ sidebar_position: 6
 | Multi user            | ✅     | ✅                | ✅     |
 | Dedicated infrastructure |     | ✅                | ✅     |
 | SSO Oauth2            |        | ✅                | ✅     |
-| Role based access     | ✅     | ✅                |        |
+| Role based access     | ✅     | ✅                | ✅     |
+| Team management       | ✅     | ✅                | ✅     |
 | Vertical scaling      | ✅     | ✅                | ✅     |
 | Horizontal scaling    | ✅     | ✅                | ✅     |
 | Autoscaling           | ✅     | ✅                | ✅     |
@@ -36,7 +37,7 @@ sidebar_position: 6
 | Activity Logs (Audit) | ✅     | ✅                | ✅     |
 | Realtime App Logs     | ✅     | ✅                | ✅     |
 | Historic Metrics      | ✅     | ✅                | ✅     |
-| Webhooks              | ✅     | ✅                | ✅     |
+| Event Webhooks        | ✅     | ✅                | ✅     |
 | **Vulnerability scans**|        |                   | ✅     |
 | Templates             | ✅     | ✅                | ✅     |
 | GitOps with Github    | ✅     | ✅                | ✅     |
