@@ -8,6 +8,7 @@ sidebar_position: 6
 |                       | Heroku | Heroku Enterprise | Kubero | 
 |-----------------------|:------:|:-----------------:|:------:|
 | User interface        | ✅     | ✅                | ✅     |
+| Multilanguage support |        |                   | ✅     |
 | CLI                   | ✅     | ✅                | ✅     |
 | API                   | ✅     | ✅                | ✅     |
 | Multi user            | ✅     | ✅                | ✅     |
@@ -36,9 +37,9 @@ sidebar_position: 6
 | Runpacks              |        |                   | ✅     |
 | Activity Logs (Audit) | ✅     | ✅                | ✅     |
 | Realtime App Logs     | ✅     | ✅                | ✅     |
-| Historic Metrics      | ✅     | ✅                | ✅     |
+| Application Metrics   | ✅     | ✅                | ✅     |
 | Event Webhooks        | ✅     | ✅                | ✅     |
-| **Vulnerability scans**|        |                   | ✅     |
+| **Vulnerability scans**|       |                   | ✅     |
 | Templates             | ✅     | ✅                | ✅     |
 | GitOps with Github    | ✅     | ✅                | ✅     |
 | GitOps with GitLab    |        |                   | ✅     |
