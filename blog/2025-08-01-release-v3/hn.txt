@@ -1,0 +1,44 @@
+
+Show HN: Open-source Heroku PaaS alternative
+
+Hey HN,
+
+I’m the creator of Kubero, an open-source PaaS. I've been working on it for the past 3 years. The idea was born during Heroku’s major outage in 2022, when I realized how much we rely on closed platforms — and how fragile that can be. The main goal is to keep the workflows and simplicity of Heroku, but with the freedom and control of self-hosting. Developers are empowered to take charge of their infrastructure. No infrastructure hassle — just push your code, and it runs.
+
+Kubero is running on Kubernetes, as an operator. It comes with an intuitive web UI, Accessible API, and a CLI. It supports Dockerfiles, Nixpacks, Runpacks, and Buildpacks for building your applications. You can deploy any containerized app with ease. Or just use the 170+ pre-configured templates to get started quickly. It’s designed to be user-friendly, even for those who aren’t Kubernetes experts.
+
+💡 Core Features:
+- Run any docker container with Add-Ons (Postgres, Redis, etc.)
+- Git-based deployments (just git push)
+- Starting Apps with a pull request
+- High availability and autoscaling
+- App metrics and logs
+- 170+ pre-configured templates for quick setup
+- API for automation and integration
+- CLI for easy management and installation
+- Web-Console and Logs in the UI
+- SSL handling with cert manager
+... 
+
+I’ve also put together a detailed feature comparison with Heroku here:
+👉 https://www.kubero.dev/docs/comparison-heroku
+
+🔥 What’s New in v3:
+- Built-in User Management –> Roles, API tokens, permission system.
+- Team Views –> Manage multiple teams/projects in one instance.
+- Multi-language support (English, German, Japanese, Chinese, Portuguese, ... more to come)
+- Tested and Stable –> 500+ Jest tests, ~85% test coverage.
+
+Kubero is 100% open source and welcomes contributors. If you’ve ever wanted more control over your app platform — or just want a break from vendor lock-in — give it a try!
+
+
+Happy to answer questions and get your feedback!
+
+⭐ To support this project, please consider starring the repo ⭐
+
+👉 Links
+- Source: https://github.com/kubero-dev/kubero/
+- Demo: https://demo.kubero.dev
+- Docs: https://www.kubero.dev/docs
+
+— Gianni 

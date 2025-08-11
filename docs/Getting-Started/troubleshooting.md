@@ -179,3 +179,11 @@ spec:
         ingress:
           class: nginx
 ```
+
+
+### Reset Admin password
+
+Run this command to reset the admin password to `admin`:
+```
+kubectl exec -it kubero-XXXXXX -n kubero -- yarn cli:reset-admin
+```
