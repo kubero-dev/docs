@@ -8,13 +8,13 @@ I'm excited to announce that Kubero v3 is officially out! 🎉
 
 I'm the maintainer of Kubero and today I've published version 3.0.0 of Kubero. This release comes with a major internal overhaul — the entire backend has been refactored and migrated from Express.js to NestJS. I worked about 6 Month on it and about 40K of lines have been changed. 
 The frontend has now built in a Teams- and Usermanagement. So you can create teams which might share or not share projects. 
-Role base Access has been implemented. So every User has a specific role with dedicated permissions.
+Role based Access has been implemented. So every User has a specific role with dedicated permissions.
 
 
 #🔥 What is Kubero?
 Kubero is a self-hosted PaaS alternative to Heroku, Vercel, and Coolify running on any Kubernetes cluster.  The UI makes it simple to deploy your code with GitOps workflows and simplifies the deployment of any containerized apps on Kubernetes. Imagine a simplified argoCD that requires no Kubernetes and Helm-Chart knowledge to deploy your apps. It is 100% open source and self-hosted.
 
-Some Features:
+# Some Features:
 - 170+ Templates
 - Running high available on Kubernetes
 - Web Console and Logs

@@ -1,9 +1,9 @@
 
-Show HN: Open-source Heroku PaaS alternative
+Show HN: Open-source Heroku/Coolify PaaS alternative
 
 Hey HN,
 
-I’m the creator of Kubero, an open-source PaaS. I've been working on it for the past 3 years. The idea was born during Heroku’s major outage in 2022, when I realized how much we rely on closed platforms — and how fragile that can be. The main goal is to keep the workflows and simplicity of Heroku, but with the freedom and control of self-hosting. Developers are empowered to take charge of their infrastructure. No infrastructure hassle — just push your code, and it runs.
+I’m the creator of Kubero, an open-source PaaS. I've been working on it for the past 3 years and now I've just released version 3. The idea for Kubero was born during Heroku’s major outage in 2022, when I realized how much we rely on closed platforms — and how fragile that can be. The main goal is to keep the workflows and simplicity of Heroku, but with the freedom and control of self-hosting. Developers are empowered to take charge of their infrastructure. No infrastructure hassle — just push your code, and it runs.
 
 Kubero is running on Kubernetes, as an operator. It comes with an intuitive web UI, Accessible API, and a CLI. It supports Dockerfiles, Nixpacks, Runpacks, and Buildpacks for building your applications. You can deploy any containerized app with ease. Or just use the 170+ pre-configured templates to get started quickly. It’s designed to be user-friendly, even for those who aren’t Kubernetes experts.
 
@@ -41,4 +41,4 @@ Happy to answer questions and get your feedback!
 - Demo: https://demo.kubero.dev
 - Docs: https://www.kubero.dev/docs
 
-— Gianni 
+Gianni 
