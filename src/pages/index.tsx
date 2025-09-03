@@ -5,9 +5,9 @@ import Layout from '@theme/Layout';
 import HomepageFeatures from '@site/src/components/HomepageFeatures';
 import ScreenshotsGallery from '@site/src/components/ScreenshotsGallery';
 import CopyButton from '@site/src/components/CopyButton';
-import Heading from '@theme/Heading';
 
 import styles from './index.module.css';
+import { JSX } from 'react';
 
 function HomepageHeader() {
   const {siteConfig} = useDocusaurusContext();

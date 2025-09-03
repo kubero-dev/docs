@@ -5,6 +5,13 @@ import tailwindPlugin from "./plugins/tailwind-config.cjs";
 
 
 const config: Config = {
+  scripts: [
+    {
+      src: "https://umami.demo.kubero.dev/script.js",
+      defer: true,
+      'data-website-id': "560b386b-53db-4914-932d-5f47c7cadeed",
+    },
+  ],
   title: 'Kubero',
   tagline: 'Deploy 12-Factor Apps on Kubernetes Easily - Simple, Scalable, Cloud-Native.',
   favicon: 'img/favicon.ico',
