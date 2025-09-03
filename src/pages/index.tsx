@@ -7,7 +7,6 @@ import ScreenshotsGallery from '@site/src/components/ScreenshotsGallery';
 import CopyButton from '@site/src/components/CopyButton';
 
 import styles from './index.module.css';
-import { JSX } from 'react';
 
 function HomepageHeader() {
   const {siteConfig} = useDocusaurusContext();

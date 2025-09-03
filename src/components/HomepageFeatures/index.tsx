@@ -1,7 +1,6 @@
 import styles from './styles.module.css';
 import { FeatureItem, FeatureList } from './features';
 import 'remixicon/fonts/remixicon.css'
-import { JSX } from 'react';
 
 function Feature({title, icon, description, link}: FeatureItem) {
   return (
