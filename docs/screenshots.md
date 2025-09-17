@@ -8,6 +8,14 @@ sidebar_position: 5
 ![pipeline list](../static/assets/screenshots/pipeline-list.png)
 ---
 
+![pipeline overview](../static/assets/screenshots/pipeline-overview.png)
+
+---
+
+![pipeline dark mode](../static/assets/screenshots/dark-mode.png)
+
+--- 
+
 ![pipeline new](../static/assets/screenshots/pipeline-new.png)
 
 ---
@@ -21,6 +29,10 @@ sidebar_position: 5
 ---
 
 ![application logs](../static/assets/screenshots/app-logs.png)
+
+---
+
+![application console](../static/assets/screenshots/app-console.png)
 
 ---
 
@@ -45,3 +57,19 @@ sidebar_position: 5
 ---
 
 ![kubero cli](../static/assets/screenshots/cli.png)
+
+---
+
+![kubero profile](../static/assets/screenshots/profile.png)
+
+---
+
+![kubero profile](../static/assets/screenshots/account-users.png)
+
+---
+
+![kubero profile](../static/assets/screenshots/account-teams.png)
+
+---
+
+![kubero profile](../static/assets/screenshots/account-roles.png)
