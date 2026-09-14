@@ -19,7 +19,7 @@ The config has three sections so far:
 2. buildpacks: the selectable list of buildpacks
 3. podSizeList: the selectable list of pods
 
-A full example can be found here https://github.com/kubero-dev/kubero/blob/main/config.yaml
+A full example can be found here https://github.com/kubero-dev/kubero/blob/main/server/config.example.yaml
 
 ```yaml
 kubero:
